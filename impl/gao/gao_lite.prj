@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-55" package="PBGA484" speed="8" partNumber="GW2A-LV55PG484C8/I7"/>
+    <FileList>
+        <File path="D:/Gowin/Gowin_V1.9.8/IDE/data/ipcores/GAO_LITE/GW_AO_0/gw_ao_mem_ctrl.v" type="verilog"/>
+        <File path="D:/Gowin/Gowin_V1.9.8/IDE/data/ipcores/GAO_LITE/GW_AO_0/gw_ao_top.v" type="verilog"/>
+        <File path="D:/Gowin/Gowin_V1.9.8/IDE/data/ipcores/GAO_LITE/GW_CON/gw_con_top.v" type="verilog"/>
+        <File path="D:/Gowin/Gowin_V1.9.8/IDE/data/ipcores/gw_jtag.v" type="verilog"/>
+        <File path="C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/impl/gao/gw_gao_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="D:/Gowin/Gowin_V1.9.8/IDE/data/ipcores/GAO_LITE"/>
+        <Option type="include_path" value="C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/impl/gao"/>
+        <Option type="output_file" value="C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/impl/gao/gao.v"/>
+    </OptionList>
+</Project>

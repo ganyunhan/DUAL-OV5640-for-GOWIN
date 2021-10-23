@@ -1,0 +1,12 @@
+[General]
+ipc_version=4
+file=gowin_clkdiv
+module=Gowin_CLKDIV
+target_device=gw2a55-000
+type=clock_clkdiv
+version=1.0
+
+[Config]
+Calibration=true
+Division_Factor=5
+Language=0

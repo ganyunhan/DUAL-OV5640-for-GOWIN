@@ -1,0 +1,160 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\cmos_add.v'
+Undeclared symbol 'empty', assumed default net type 'wire'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\cmos_add.v":44)
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\cmos_rpll\cmos_rpll.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr_rpll\ddr_rpll.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_ov5640_lcd.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dvi_tx\dvi_tx.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\fifo_ping\fifo_ping.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\fifo_pong\fifo_pong.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\gowin_clkdiv\gowin_clkdiv.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\hdmi_rpll\hdmi_rpll.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\OV5640_capture_data.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\i2c_dri.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\i2c_ov5640_rgb565_cfg.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\ov5640_dri.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\picture_size.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\syn_code\syn_gen.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\testpattern.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_rpll\video_rpll.v'
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v'
+Analyzing included file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":133)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":133)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'
+Analyzing included file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_define.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing included file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing included file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_parameter.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'
+Analyzing included file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\RTL_GAO\ao_control\gw_con_top_define.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Analyzing included file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_parameter.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\gw_jtag.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\RTL_GAO\gw_gao_top.v'
+WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\cmos_add.v":46)
+WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_ov5640_lcd.v":189)
+WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_ov5640_lcd.v":217)
+WARN  (EX3073) : Port 'O_vin0_fifo_full' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_ov5640_lcd.v":273)
+Compiling module 'cmos_add'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\cmos_add.v":1)
+Compiling module 'fifo_pong'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\fifo_pong\fifo_pong.v":612)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\fifo_pong\fifo_pong.v":0)
+Compiling module 'cmos_rpll'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\cmos_rpll\cmos_rpll.v":9)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module 'DDR3_Memory_Interface_Top'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":11477)
+Compiling module 'ddr_rpll'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr_rpll\ddr_rpll.v":9)
+Compiling module 'dual_ov5640_lcd'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_ov5640_lcd.v":1)
+Compiling module 'ov5640_dri'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\ov5640_dri.v":22)
+Compiling module 'i2c_ov5640_rgb565_cfg'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\i2c_ov5640_rgb565_cfg.v":22)
+Compiling module 'i2c_dri(SLAVE_ADDR=7'b0111100,CLK_FREQ=27'b101111101011110000100000000,I2C_FREQ=18'b111101000010010000)'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\i2c_dri.v":22)
+Compiling module 'OV5640_capture_data'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\OV5640_capture_data.v":22)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'cmos_h_pixel'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_ov5640_lcd.v":179)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'cmos_h_pixel'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_ov5640_lcd.v":207)
+Compiling module 'Video_Frame_Buffer_Top'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v":4132)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module 'syn_gen'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\syn_code\syn_gen.v":13)
+Compiling module 'hdmi_rpll'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\hdmi_rpll\hdmi_rpll.v":9)
+Compiling module 'Gowin_CLKDIV'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\gowin_clkdiv\gowin_clkdiv.v":9)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'calib'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_ov5640_lcd.v":370)
+Compiling module 'DVI_TX_Top'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dvi_tx\dvi_tx.v":1042)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dvi_tx\dvi_tx.v":0)
+WARN  (EX1947) : Input port 'sr_req' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_ov5640_lcd.v":329)
+WARN  (EX1987) : Input port 'ref_req' is not connected on this instance("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_ov5640_lcd.v":329)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\fifo_ping\fifo_ping.v":0)
+Compiling module 'fifo_ping'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\fifo_ping\fifo_ping.v":612)
+Compiling module 'picture_size'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\picture_size.v":22)
+Compiling module 'testpattern'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\testpattern.v":19)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module 'Video_Frame_Buffer_Top_32'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v":3958)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module 'video_frame_buffer_dual'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v":4133)
+Compiling module 'video_rpll'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_rpll\video_rpll.v":9)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Extracting RAM for identifier '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Extracting RAM for identifier '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":0)
+Compiling module 'GW_JTAG'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\gw_jtag.v":1)
+Compiling module 'gw_gao'("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\RTL_GAO\gw_gao_top.v":1)
+Trying to combine GAO to RTL design
+NOTE  (EX0101) : Current top module is "dual_ov5640_lcd"
+WARN  (EX0211) : The output port "pixel_de" of module "cmos_add" has no driver("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\cmos_add.v":14)
+WARN  (EX0211) : The output port "sr_ack" of module "DDR3_Memory_Interface_Top" has no driver("C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v":11539)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\dual_5640.vg" completed
+[100%] Generate report file "C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\dual_5640_syn.rpt.html" completed
+GowinSynthesis finish

@@ -55,11 +55,11 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Design File</td>
-<td>C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\dual_5640.vg</td>
+<td>C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\impl\gwsynthesis\dual_5640.vg</td>
 </tr>
 <tr>
 <td class="label">Physical Constraints File</td>
-<td>C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_5640.cst</td>
+<td>C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\dual_5640.cst</td>
 </tr>
 <tr>
 <td class="label">Timing Constraints File</td>
@@ -79,7 +79,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Thu Oct 21 22:13:57 2021
+<td>Mon Oct 25 15:38:57 2021
 </td>
 </tr>
 <tr>
@@ -94,22 +94,22 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td class="label">Place & Route Process</td>
 <td>Running placement:
    Placement Phase 0: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
-   Placement Phase 1: CPU time = 0h 0m 0.742s, Elapsed time = 0h 0m 0.742s
+   Placement Phase 1: CPU time = 0h 0m 0.601s, Elapsed time = 0h 0m 0.601s
    Placement Phase 2: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
    Placement Phase 3: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
-   Total Placement: CPU time = 0h 0m 7s, Elapsed time = 0h 0m 7s
+   Total Placement: CPU time = 0h 0m 5s, Elapsed time = 0h 0m 5s
 Running routing:
-   Routing Phase 0: CPU time = 0h 0m 0.002s, Elapsed time = 0h 0m 0.003s
+   Routing Phase 0: CPU time = 0h 0m 0.003s, Elapsed time = 0h 0m 0.002s
    Routing Phase 1: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
    Routing Phase 2: CPU time = 0h 0m 7s, Elapsed time = 0h 0m 7s
    Total Routing: CPU time = 0h 0m 8s, Elapsed time = 0h 0m 8s
 Generate output files:
-   CPU time = 0h 0m 8s, Elapsed time = 0h 0m 8s
+   CPU time = 0h 0m 6s, Elapsed time = 0h 0m 6s
 </td>
 </tr>
 <tr>
 <td class="label">Total Time and Memory Usage</td>
-<td>CPU time = 0h 0m 23s, Elapsed time = 0h 0m 23s, Peak memory usage = 773MB</td>
+<td>CPU time = 0h 0m 20s, Elapsed time = 0h 0m 20s, Peak memory usage = 761MB</td>
 </tr>
 </table>
 <br/>
@@ -124,12 +124,12 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">Logic</td>
-<td>4043/54720</td>
+<td>4048/54720</td>
 <td>7%</td>
 </tr>
 <tr>
 <td class="label">&nbsp &nbsp --LUT,ALU,ROM16</td>
-<td>3323(2991 LUT, 332 ALU, 0 ROM16)</td>
+<td>3328(2996 LUT, 332 ALU, 0 ROM16)</td>
 <td>-</td>
 </tr>
 <tr>
@@ -139,7 +139,7 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">Register</td>
-<td>2434/41997</td>
+<td>2436/41997</td>
 <td>5%</td>
 </tr>
 <tr>
@@ -149,7 +149,7 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">&nbsp &nbsp --Logic Register as FF</td>
-<td>2413/41040</td>
+<td>2415/41040</td>
 <td>5%</td>
 </tr>
 <tr>
@@ -164,7 +164,7 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">CLS</td>
-<td>3446/27360</td>
+<td>3440/27360</td>
 <td>12%</td>
 </tr>
 <tr>
@@ -295,7 +295,7 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">PRIMARY</td>
-<td>7/8(87%)</td>
+<td>8/8(100%)</td>
 </tr>
 <tr>
 <td class="label">SECONDARY</td>
@@ -329,12 +329,17 @@ Generate output files:
 <tr>
 <td class="label">sys_clk_d</td>
 <td>PRIMARY</td>
-<td> TR TL BR BL</td>
+<td> TR BR BL</td>
 </tr>
 <tr>
 <td class="label">clk_100m</td>
 <td>PRIMARY</td>
-<td> TR BR</td>
+<td> BR</td>
+</tr>
+<tr>
+<td class="label">cmos1_frame_vsync</td>
+<td>PRIMARY</td>
+<td> TR</td>
 </tr>
 <tr>
 <td class="label">dma_clk</td>

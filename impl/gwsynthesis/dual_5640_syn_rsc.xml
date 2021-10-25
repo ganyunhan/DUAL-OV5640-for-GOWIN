@@ -3,22 +3,22 @@
     <SubModule name="u_cmos_rpll"/>
     <SubModule name="u0_ov5640_dri">
         <SubModule name="u_i2c_cfg" Register="23" Alu="19" Lut="15" Bsram="1"/>
-        <SubModule name="u_i2c_dr" Register="32" Lut="106"/>
+        <SubModule name="u_i2c_dr" Register="32" Lut="112"/>
         <SubModule name="u_cmos_capture_data" Register="34" Lut="36"/>
     </SubModule>
     <SubModule name="u1_ov5640_dri">
         <SubModule name="u_i2c_cfg" Register="23" Alu="19" Lut="14" Bsram="1"/>
-        <SubModule name="u_i2c_dr" Register="31" Lut="112"/>
-        <SubModule name="u_cmos_capture_data" Register="34" Lut="35"/>
+        <SubModule name="u_i2c_dr" Register="31" Lut="108"/>
+        <SubModule name="u_cmos_capture_data" Register="34" Lut="36"/>
     </SubModule>
-    <SubModule name="u_cmos_add" Lut="18">
+    <SubModule name="u_cmos_add" Register="2" Lut="20">
         <SubModule name="u_fifo_pong" Register="73" Alu="32" Lut="46" Bsram="1" Ssram="3"/>
     </SubModule>
     <SubModule name="Video_Frame_Buffer" Register="399" Alu="82" Lut="700" Bsram="8" Ssram="6"/>
     <SubModule name="pll_ddr3"/>
-    <SubModule name="gw_gao_inst_0" Register="387" Lut="321" Bsram="45"/>
+    <SubModule name="gw_gao_inst_0" Register="387" Lut="320" Bsram="45"/>
     <SubModule name="DDR3_MIG" Register="1292" Alu="112" Lut="1345" Bsram="8" Ssram="111"/>
-    <SubModule name="syn_gen_inst" Register="33" Lut="68"/>
+    <SubModule name="syn_gen_inst" Register="33" Lut="69"/>
     <SubModule name="u_tmds_pll"/>
     <SubModule name="u_Gowin_CLKDIV"/>
     <SubModule name="DVI_TX" Register="73" Alu="68" Lut="217"/>

@@ -4,40 +4,40 @@
     <Version>beta</Version>
     <Device id="GW2A-55" package="PBGA484" speed="8" partNumber="GW2A-LV55PG484C8/I7"/>
     <FileList>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\cmos_add.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\cmos_rpll\cmos_rpll.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr3_memory_interface\ddr3_memory_interface.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ddr_rpll\ddr_rpll.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_ov5640_lcd.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dvi_tx\dvi_tx.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\fifo_ping\fifo_ping.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\fifo_pong\fifo_pong.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\gowin_clkdiv\gowin_clkdiv.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\hdmi_rpll\hdmi_rpll.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\OV5640_capture_data.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\i2c_dri.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\i2c_ov5640_rgb565_cfg.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\ov5640_dri.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\ov5640\picture_size.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\syn_code\syn_gen.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\testpattern.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer\video_frame_buffer.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_32\video_frame_buffer_32.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_frame_buffer_dual\video_frame_buffer_dual.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\video_rpll\video_rpll.v" type="verilog"/>
-        <File path="D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v" type="gao"/>
-        <File path="D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v" type="gao"/>
-        <File path="D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v" type="gao"/>
-        <File path="D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\gw_jtag.v" type="gao"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\RTL_GAO\gw_gao_top.v" type="gao"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\cmos_add.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\cmos_rpll\cmos_rpll.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\ddr3_memory_interface\ddr3_memory_interface.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\ddr_rpll\ddr_rpll.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\dvi_tx\dvi_tx.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\fifo_ping\fifo_ping.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\fifo_pong\fifo_pong.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\gowin_clkdiv\gowin_clkdiv.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\hdmi_rpll\hdmi_rpll.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\ov5640\OV5640_capture_data.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\ov5640\i2c_dri.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\ov5640\i2c_ov5640_rgb565_cfg.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\ov5640\ov5640_dri.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\ov5640\picture_size.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\syn_code\syn_gen.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\testpattern.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\video_frame_buffer\video_frame_buffer.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\video_frame_buffer_32\video_frame_buffer_32.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\video_frame_buffer_dual\video_frame_buffer_dual.v" type="verilog"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\video_rpll\video_rpll.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v" type="gao"/>
+        <File path="C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v" type="gao"/>
+        <File path="C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v" type="gao"/>
+        <File path="C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\gw_jtag.v" type="gao"/>
+        <File path="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\impl\gwsynthesis\RTL_GAO\gw_gao_top.v" type="gao"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>
         <Option type="dsp_balance" value="0"/>
-        <Option type="include_path" value="D:/Gowin/Gowin_V1.9.8/IDE/data/ipcores/GAO_LITE"/>
-        <Option type="include_path" value="C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/impl/gwsynthesis/RTL_GAO"/>
+        <Option type="include_path" value="C:/Gowin/Gowin_V1.9.8/IDE/data/ipcores/GAO_LITE"/>
+        <Option type="include_path" value="C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/DUAL-OV5640-for-GOWIN/impl/gwsynthesis/RTL_GAO"/>
         <Option type="looplimit" value="2000"/>
-        <Option type="output_file" value="C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\dual_5640.vg"/>
+        <Option type="output_file" value="C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\impl\gwsynthesis\dual_5640.vg"/>
         <Option type="print_all_synthesis_warning" value="0"/>
         <Option type="ram_rw_check" value="1"/>
         <Option type="top_module" value="dual_ov5640_lcd"/>

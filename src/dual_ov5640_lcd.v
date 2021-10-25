@@ -231,6 +231,7 @@ cmos_add u_cmos_add(
     .cmos1_pclk         (cam1_pclk),
     .cmos1_href         (cmos1_frame_href),
     .cmos1_data         (cmos1_frame_data),
+    .cmos1_vsync        (cmos1_frame_vsync),
 
     .pixel_vsync        (ch0_vfb_vs_in),
     .pixel_href         (ch0_vfb_de_in),

@@ -1,7 +1,7 @@
-Reading netlist file: "C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\dual_5640.vg"
-Parsing netlist file "C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\gwsynthesis\dual_5640.vg" completed
+Reading netlist file: "C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\impl\gwsynthesis\dual_5640.vg"
+Parsing netlist file "C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\impl\gwsynthesis\dual_5640.vg" completed
 Processing netlist completed
-Reading constraint file: "C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\src\dual_5640.cst"
+Reading constraint file: "C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\src\dual_5640.cst"
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -22,10 +22,10 @@ Bitstream generation in progress......
 Bitstream generation completed
 Running power analysis......
 [100%] Power analysis completed
-Generate file "C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\pnr\dual_5640.power.html" completed
-Generate file "C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\pnr\dual_5640.pin.html" completed
-Generate file "C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\pnr\dual_5640.rpt.html" completed
-Generate file "C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\pnr\dual_5640.rpt.txt" completed
-Generate file "C:\Users\hankg\OneDrive\Works\Gowin\dual_ov5640\impl\pnr\dual_5640.tr.html" completed
-Thu Oct 21 22:13:58 2021
+Generate file "C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\impl\pnr\dual_5640.power.html" completed
+Generate file "C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\impl\pnr\dual_5640.pin.html" completed
+Generate file "C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\impl\pnr\dual_5640.rpt.html" completed
+Generate file "C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\impl\pnr\dual_5640.rpt.txt" completed
+Generate file "C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\DUAL-OV5640-for-GOWIN\impl\pnr\dual_5640.tr.html" completed
+Mon Oct 25 15:38:57 2021
 

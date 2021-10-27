@@ -316,7 +316,8 @@ always @(posedge clk or negedge rst_n) begin
             8'd204: i2c_data <= {16'h5025,8'h00};
             //系统时钟分频 Bit[7:4]:系统时钟分频 input clock =24Mhz, PCLK = 48Mhz
             8'd205: i2c_data <= {16'h3035,8'h11}; 
-            8'd206: i2c_data <= {16'h3036,8'h3c}; //PLL倍频
+//            8'd206: i2c_data <= {16'h3036,8'h3c}; //PLL倍频
+            8'd206: i2c_data <= {16'h3036,8'h69}; //PLL倍频
             8'd207: i2c_data <= {16'h3c07,8'h08};
             //时序控制 16'h3800~16'h3821
             8'd208: i2c_data <= {16'h3820,8'h46};

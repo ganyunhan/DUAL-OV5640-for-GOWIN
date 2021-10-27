@@ -223,19 +223,19 @@ ov5640_dri u1_ov5640_dri(
 
 cmos_add u_cmos_add(
     .sys_rst_n          (rst_n),
+
     .cmos0_pclk         (cam0_pclk),
     .cmos0_href         (cmos0_frame_href),
     .cmos0_data         (cmos0_frame_data),
-    .cmos0_vsync        (cmos0_frame_vsync),
+    .cmos0_vsync        (cam0_vsync),
 
     .cmos1_pclk         (cam1_pclk),
     .cmos1_href         (cmos1_frame_href),
     .cmos1_data         (cmos1_frame_data),
-    .cmos1_vsync        (cmos1_frame_vsync),
+    .cmos1_vsync        (cam1_vsync),
 
     .pixel_vsync        (ch0_vfb_vs_in),
     .pixel_href         (ch0_vfb_de_in),
-    .pixel_de           (),
     .pixel_data         (ch0_vfb_data_in)
 );
 

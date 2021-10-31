@@ -4,16 +4,16 @@
     <Version>beta</Version>
     <Device id="GW2A-55" package="PBGA484" speed="8" partNumber="GW2A-LV55PG484C8/I7"/>
     <FileList>
-        <File path="C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/fifo_pong/temp/FIFO/fifo_define.v" type="verilog"/>
-        <File path="C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/fifo_pong/temp/FIFO/fifo_parameter.v" type="verilog"/>
-        <File path="D:/Gowin/Gowin_V1.9.8/IDE/ipcore/FIFO/data/edc.v" type="verilog"/>
-        <File path="D:/Gowin/Gowin_V1.9.8/IDE/ipcore/FIFO/data/fifo.v" type="verilog"/>
-        <File path="D:/Gowin/Gowin_V1.9.8/IDE/ipcore/FIFO/data/fifo_top.v" type="verilog"/>
+        <File path="C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/temp/FIFO/fifo_define.v" type="verilog"/>
+        <File path="C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/temp/FIFO/fifo_parameter.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.8/IDE/ipcore/FIFO/data/edc.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.8/IDE/ipcore/FIFO/data/fifo.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.8/IDE/ipcore/FIFO/data/fifo_top.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="1"/>
         <Option type="dsp_balance" value="1"/>
-        <Option type="include_path" value="C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/fifo_pong/temp/FIFO"/>
+        <Option type="include_path" value="C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/temp/FIFO"/>
         <Option type="output_file" value="fifo_pong.vg"/>
         <Option type="output_template" value="fifo_pong_tmp.v"/>
         <Option type="ram_balance" value="1"/>

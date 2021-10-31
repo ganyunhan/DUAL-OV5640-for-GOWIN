@@ -160,7 +160,7 @@ cmos_rpll u_cmos_rpll(
     .clkin              (sys_clk    )  //input clkin
 );
 
-//OV5640 0摄像头驱动,右边的
+//OV5640 0摄像头驱动,左边的
 wire        cmos0_frame_vsync;
 wire        cmos0_frame_href;
 ov5640_dri u0_ov5640_dri(
@@ -188,7 +188,7 @@ ov5640_dri u0_ov5640_dri(
     .cmos_frame_data   (cmos0_frame_data)
     );
     
-//OV5640 1摄像头驱动，左边的
+//OV5640 1摄像头驱动，右边的
 wire        cmos1_frame_vsync;
 wire        cmos1_frame_href;
 ov5640_dri u1_ov5640_dri(

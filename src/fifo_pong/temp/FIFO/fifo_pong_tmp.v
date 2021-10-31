@@ -4,7 +4,7 @@
 //GOWIN Version: GowinSynthesis V1.9.8
 //Part Number: GW2A-LV55PG484C8/I7
 //Device: GW2A-55
-//Created Time: Thu Oct 21 19:01:47 2021
+//Created Time: Sat Oct 30 16:11:53 2021
 
 //Change the instance name and port connections to the signal names
 //--------Copy here to design--------

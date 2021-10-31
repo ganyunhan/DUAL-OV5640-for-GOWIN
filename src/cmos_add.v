@@ -17,8 +17,9 @@ module cmos_add(
 
     output          pixel_vsync,
     output          pixel_href,
-    output[15:0]    pixel_data
+    output reg [15:0]    pixel_data
 );
+
 
 /*
 reg [11:0]      pixel_cnt;//行像素计数器
@@ -45,7 +46,7 @@ always @(posedge cmos0_pclk or negedge sys_rst_n) begin
         counter <= 24'd0;
         counter_clk <= 1'b0;
     end
-    else if (counter < 24'd100_0000)
+    else if (counter < 24'd10_0000)
         counter <= counter + 1'b1;
     else begin
         counter <= 24'd0;
@@ -84,7 +85,6 @@ fifo_pong u_fifo_pong(
 
 
 /************2分频后begin**************/
-
 always @(posedge cmos0_vsync or negedge sys_rst_n) begin
     if (!sys_rst_n) begin
         vsync_add_clk_cnt <= 2'b0;
@@ -96,11 +96,9 @@ always @(posedge cmos0_vsync or negedge sys_rst_n) begin
         vsync_add_clk_cnt <= vsync_add_clk_cnt + 2'b1;
     end
 end
-
-
 /****************end*******************/
 
-assign pixel_vsync = (vsync_add_clk_cnt ^ 2'd1) ? 1'b0 : cmos0_vsync|cmos1_vsync;
+assign pixel_vsync = (vsync_add_clk_cnt ^ 2'd1) ? 1'b0 : cmos0_vsync ;
 
 /*************将empty信号打到cmos0_pclk里**********/
 reg fifo_empty;
@@ -149,8 +147,56 @@ always @(posedge cmos0_pclk or negedge sys_rst_n) begin
     else if(cmos1_href) cmos0_delay <= 10'd0;
 end
 
-assign pixel_data = cmos1_href ? cmos1_data : cmos0_data_rd;//场信号后半周期更新行信号
-assign pixel_href =  cmos1_href|~empty;
+//垂直信号分割
+reg [10:0] pixel_href_cnt;
+reg        pixel_flip_flag;
+always @(posedge pixel_href or negedge sys_rst_n) begin
+    if (!sys_rst_n) begin
+        pixel_href_cnt <= 11'd0;
+        pixel_flip_flag <= 1'b0;
+    end
+    else if(pixel_href_cnt < 11'd360) begin
+        pixel_href_cnt <= pixel_href_cnt + 1'b1;
+        pixel_flip_flag <= 1'b0;
+    end
+    else if(pixel_href_cnt >= 11'd720) begin
+        pixel_href_cnt <= 11'd0;
+        pixel_flip_flag <= 1'b0;
+    end
+    else if(pixel_href_cnt >= 11'd360) begin
+        pixel_href_cnt <= pixel_href_cnt + 1'b1;
+        pixel_flip_flag <= 1'b1;
+    end
+end
+
+reg [4:0] R;
+reg [5:0] G;
+reg [4:0] B;
+/*
+always @(*) begin
+    if (!pixel_flip_flag) begin //上半屏
+        pixel_data <= cmos1_href ? cmos1_data : cmos0_data_rd;
+//          pixel_data <= cmos1_href ? 16'd0 : 16'd0;
+    end
+    else if(pixel_flip_flag) begin
+
+//        R <= cmos1_data[14:11] + cmos0_data_rd[14:11];
+//        G <= cmos1_data[9:5]   + cmos0_data_rd[9:5];
+//        B <= cmos1_data[3:0]   + cmos0_data_rd[3:0];
+//        pixel_data <= {R,G,B};
+
+        pixel_data <= cmos1_href ? 16'd0 : 16'd0;
+    end
+end
+*/
+
+//上下分屏显示，用vsync分屏信号做标志
+always @(*) begin
+    pixel_data <= (vsync_add_clk_cnt ^ 2'd1) ?  (cmos1_href ? cmos1_data : cmos0_data_rd) : 16'd0;
+end
+
+//assign pixel_data = cmos1_href ? cmos1_data : cmos0_data_rd;//场信号后半周期更新行信号
+assign pixel_href =  cmos1_href | (~ empty);
 //assign pixel_href =  cmos0_href_reg|cmos1_href;//保证href信号上升沿对齐第一个像素
 //assign pixel_href =  cmos1_href;
 

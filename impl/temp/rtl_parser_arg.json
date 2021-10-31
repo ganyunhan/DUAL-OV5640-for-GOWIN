@@ -1,87 +1,87 @@
 {
  "Files" : [
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/cmos_add.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_add.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/cmos_rpll/cmos_rpll.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_rpll/cmos_rpll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/ddr3_memory_interface/ddr3_memory_interface.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ddr3_memory_interface/ddr3_memory_interface.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/ddr_rpll/ddr_rpll.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ddr_rpll/ddr_rpll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/dual_ov5640_lcd.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/dvi_tx/dvi_tx.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dvi_tx/dvi_tx.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/fifo_ping/fifo_ping.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_ping/fifo_ping.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/fifo_pong/fifo_pong.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/gowin_clkdiv/gowin_clkdiv.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/hdmi_rpll/hdmi_rpll.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/hdmi_rpll/hdmi_rpll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/ov5640/OV5640_capture_data.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/OV5640_capture_data.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/ov5640/i2c_dri.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/i2c_dri.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/ov5640/i2c_ov5640_rgb565_cfg.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/i2c_ov5640_rgb565_cfg.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/ov5640/ov5640_dri.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/ov5640_dri.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/ov5640/picture_size.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/picture_size.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/syn_code/syn_gen.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/syn_code/syn_gen.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/testpattern.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/testpattern.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/video_frame_buffer/video_frame_buffer.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer/video_frame_buffer.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/video_frame_buffer_32/video_frame_buffer_32.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer_32/video_frame_buffer_32.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/video_frame_buffer_dual/video_frame_buffer_dual.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer_dual/video_frame_buffer_dual.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/video_rpll/video_rpll.v",
+   "Path" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_rpll/video_rpll.v",
    "Type" : "verilog"
   }
  ],
@@ -89,7 +89,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/impl/temp/rtl_parser.result",
  "Top" : "dual_ov5640_lcd",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_2008"

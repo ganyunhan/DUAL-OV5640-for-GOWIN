@@ -3,7 +3,7 @@
 -pn GW2A-LV55PG484C8/I7
 -cst C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_5640.cst
 -cfg C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\impl\pnr\device.cfg
--gao_crc 0111111001011010
+-gao_crc 0110001000000100
 -bit
 -tr
 -ph

@@ -44,6 +44,25 @@
             </Bus>
             <Signal>u_cmos_add/cmos1_pclk</Signal>
             <Signal>u_cmos_add/cmos1_href</Signal>
+            <Signal>u_cmos_add/pixel_href</Signal>
+            <Bus name="u_cmos_add/cmos0_data_splicing[15:0]">
+                <Signal>u_cmos_add/cmos0_data_splicing[15]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[14]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[13]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[12]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[11]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[10]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[9]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[8]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[7]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[6]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[5]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[4]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[3]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[2]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[1]</Signal>
+                <Signal>u_cmos_add/cmos0_data_splicing[0]</Signal>
+            </Bus>
             <Bus name="u_cmos_add/pixel_data[15:0]">
                 <Signal>u_cmos_add/pixel_data[15]</Signal>
                 <Signal>u_cmos_add/pixel_data[14]</Signal>
@@ -62,28 +81,25 @@
                 <Signal>u_cmos_add/pixel_data[1]</Signal>
                 <Signal>u_cmos_add/pixel_data[0]</Signal>
             </Bus>
-            <Signal>u_cmos_add/pixel_href</Signal>
-            <Signal>u_cmos_add/empty</Signal>
-            <Signal>u_cmos_add/empty_vsync</Signal>
-            <Bus name="u_cmos_add/cmos0_delay[10:0]">
-                <Signal>u_cmos_add/cmos0_delay[10]</Signal>
-                <Signal>u_cmos_add/cmos0_delay[9]</Signal>
-                <Signal>u_cmos_add/cmos0_delay[8]</Signal>
-                <Signal>u_cmos_add/cmos0_delay[7]</Signal>
-                <Signal>u_cmos_add/cmos0_delay[6]</Signal>
-                <Signal>u_cmos_add/cmos0_delay[5]</Signal>
-                <Signal>u_cmos_add/cmos0_delay[4]</Signal>
-                <Signal>u_cmos_add/cmos0_delay[3]</Signal>
-                <Signal>u_cmos_add/cmos0_delay[2]</Signal>
-                <Signal>u_cmos_add/cmos0_delay[1]</Signal>
-                <Signal>u_cmos_add/cmos0_delay[0]</Signal>
+            <Signal>u_cmos_add/pixel_offset_flag</Signal>
+            <Bus name="u_cmos_add/cam1_pixel_cnt[11:0]">
+                <Signal>u_cmos_add/cam1_pixel_cnt[11]</Signal>
+                <Signal>u_cmos_add/cam1_pixel_cnt[10]</Signal>
+                <Signal>u_cmos_add/cam1_pixel_cnt[9]</Signal>
+                <Signal>u_cmos_add/cam1_pixel_cnt[8]</Signal>
+                <Signal>u_cmos_add/cam1_pixel_cnt[7]</Signal>
+                <Signal>u_cmos_add/cam1_pixel_cnt[6]</Signal>
+                <Signal>u_cmos_add/cam1_pixel_cnt[5]</Signal>
+                <Signal>u_cmos_add/cam1_pixel_cnt[4]</Signal>
+                <Signal>u_cmos_add/cam1_pixel_cnt[3]</Signal>
+                <Signal>u_cmos_add/cam1_pixel_cnt[2]</Signal>
+                <Signal>u_cmos_add/cam1_pixel_cnt[1]</Signal>
+                <Signal>u_cmos_add/cam1_pixel_cnt[0]</Signal>
             </Bus>
-            <Signal>u_cmos_add/cmos0_href_reg</Signal>
-            <Signal>u_cmos_add/pixel_href</Signal>
-            <Signal>u_cmos_add/cmos0_vsync</Signal>
-            <Signal>u_cmos_add/cmos1_vsync</Signal>
-            <Signal>u_cmos_add/pixel_vsync</Signal>
+            <Signal>u_cmos_add/pixel_increase_flag</Signal>
+            <Signal>u_cmos_add/fifo_splicing_empty</Signal>
+            <Signal>u_cmos_add/u_fifo_splicing/RdEn</Signal>
         </SignalList>
     </AoCore_Lite>
-    <GAO_ID>0111111001011010</GAO_ID>
+    <GAO_ID>0110001000000100</GAO_ID>
 </GAO_CONFIG>

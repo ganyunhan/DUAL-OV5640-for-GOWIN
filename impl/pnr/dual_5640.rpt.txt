@@ -11,26 +11,26 @@
   <GOWIN Version>: V1.9.8
   <Part Number>: GW2A-LV55PG484C8/I7
   <Device>: GW2A-55
-  <Created Time>:Tue Nov 02 09:29:53 2021
+  <Created Time>:Tue Nov 02 21:29:36 2021
 
 
 2. PnR Details
 
   Running placement:
     Placement Phase 0: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
-    Placement Phase 1: CPU time = 0h 0m 0.633s, Elapsed time = 0h 0m 0.633s
+    Placement Phase 1: CPU time = 0h 0m 0.642s, Elapsed time = 0h 0m 0.641s
     Placement Phase 2: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
     Placement Phase 3: CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s
-    Total Placement: CPU time = 0h 0m 7s, Elapsed time = 0h 0m 7s
+    Total Placement: CPU time = 0h 0m 8s, Elapsed time = 0h 0m 8s
  Running routing:
     Routing Phase 0: CPU time = 0h 0m 0.003s, Elapsed time = 0h 0m 0.003s
     Routing Phase 1: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
-    Routing Phase 2: CPU time = 0h 0m 25s, Elapsed time = 0h 0m 25s
-    Total Routing: CPU time = 0h 0m 27s, Elapsed time = 0h 0m 27s
+    Routing Phase 2: CPU time = 0h 0m 29s, Elapsed time = 0h 0m 29s
+    Total Routing: CPU time = 0h 0m 30s, Elapsed time = 0h 0m 30s
  Generate output files:
     CPU time = 0h 0m 7s, Elapsed time = 0h 0m 7s
 
- Total Time and Memory Usage: CPU time = 0h 0m 41s, Elapsed time = 0h 0m 41s, Peak memory usage = 847MB
+ Total Time and Memory Usage: CPU time = 0h 0m 45s, Elapsed time = 0h 0m 45s, Peak memory usage = 867MB
 
 
 3. Resource Usage Summary
@@ -38,15 +38,15 @@
   ----------------------------------------------------------
   Resources                   | Usage
   ----------------------------------------------------------
-  Logic                       | 8464/54720  15%
-    --LUT,ALU,ROM16           | 4654(4290 LUT, 364 ALU, 0 ROM16)
+  Logic                       | 8579/54720  15%
+    --LUT,ALU,ROM16           | 4769(4405 LUT, 364 ALU, 0 ROM16)
     --SSRAM(RAM16)            | 635
-  Register                    | 2512/41997  5%
+  Register                    | 2543/41997  6%
     --Logic Register as Latch | 1/41040  1%
-    --Logic Register as FF    | 2491/41040  6%
+    --Logic Register as FF    | 2522/41040  6%
     --I/O Register as Latch   | 0/957  0%
     --I/O Register as FF      | 20/957  2%
-  CLS                         | 5883/27360  21%
+  CLS                         | 6052/27360  22%
   I/O Port                    | 90
   I/O Buf                     | 83
     --Input Buf               | 27
@@ -58,8 +58,8 @@
     --OSER8_MEM               | 20
     --OSER10                  | 4
     --IODELAY                 | 40
-  BSRAM                       | 62%
-    --SDPB                    | 71
+  BSRAM                       | 73%
+    --SDPB                    | 86
     --SDPX9B                  | 15
     --pROM                    | 2
   DSP                         | 0%
@@ -111,7 +111,7 @@
   Signal         | Global Clock   | Location
   -------------------------------------------
   sys_clk_d      | PRIMARY        |  TR TL BR BL
-  clk_100m       | PRIMARY        |  TR BR
+  clk_100m       | PRIMARY        |  BR
   dma_clk        | PRIMARY        |  TL BR BL
   pix_clk        | PRIMARY        |  TR TL
   dri_clk_2      | PRIMARY        |  TR BR

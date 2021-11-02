@@ -124,19 +124,18 @@ reg [11:0]      cam1_pixel_cnt;//行像素计数器
 always @(posedge cmos1_pclk or negedge sys_rst_n) begin
     if (!sys_rst_n)
         cam1_pixel_cnt <= 12'd0;
-    else if (!cmos1_href) begin
+    else if (!pixel_href) begin
         cam1_pixel_cnt <= 12'd0;
     end
-    else if (cam1_pixel_cnt > 12'd639) begin
-        cam1_pixel_cnt <= 12'd0;
-    end
-    else if (cmos1_href && cam1_pixel_cnt < 12'd640) begin
+    else begin
         cam1_pixel_cnt <= cam1_pixel_cnt + 12'd1;
     end
 end
 
-localparam PIXEL_OFFSET = 12'd200;
-wire pixel_offset_flag = cam1_pixel_cnt < PIXEL_OFFSET ? 1'b1 : 1'b0;
+//像素偏差位置设置
+localparam PIXEL_OFFSET = 12'd100;
+wire pixel_offset_flag = (cam1_pixel_cnt < PIXEL_OFFSET && cam1_pixel_cnt > 16'b0) ? 1'b1 : 1'b0;
+wire pixel_increase_flag = (cam1_pixel_cnt > PIXEL_OFFSET-1 && cam1_pixel_cnt <= (641 + PIXEL_OFFSET)) ? 1'b1 : 1'b0;
 
 wire [15:0]     cmos0_data_splicing;
 wire            fifo_splicing_full;
@@ -145,10 +144,10 @@ fifo_pong u_fifo_splicing(
     .Data       (cmos0_data         ), //input [15:0] Data
     .Reset      (~sys_rst_n         ), //input Reset
     .WrClk      (cmos0_pclk         ), //input WrClk
-    .RdClk      (cmos0_pclk         ), //input RdClk
+    .RdClk      (cmos1_pclk         ), //input RdClk
     .WrEn       (cmos0_href         ), //input WrEn
-//    .RdEn       (~pixel_offset_flag), //input RdEn
-    .RdEn       (1'b1), //input RdEn
+    .RdEn       (pixel_increase_flag), //input RdEn
+//    .RdEn       (1'b1), //input RdEn
     .Q          (cmos0_data_splicing), //output [15:0] Q
     .Empty      (fifo_splicing_empty), //output Empty
     .Full       (fifo_splicing_full ) //output Full
@@ -159,10 +158,10 @@ fifo_pong u_fifo_splicing(
 always @(*) begin
 //pixel_data = (vsync_add_clk_cnt ^ 2'd1) ?  (cmos1_href ? cmos1_data : cmos0_data_rd) : 16'd0;
     case (vsync_add_clk_cnt)//上下分屏显示，用vsync分屏信号做标志
-        2'd0 : begin
+        2'd0 : begin //下360行
             pixel_data = pixel_offset_flag ? cmos1_data : ~fifo_splicing_empty ? cmos0_data_splicing : 1'b0;
         end
-        2'd1 : begin
+        2'd1 : begin//上360行
             pixel_data = cmos1_href ? cmos1_data : cmos0_data_rd;
         end
         default : 

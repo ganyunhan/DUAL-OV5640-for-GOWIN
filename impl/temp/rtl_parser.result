@@ -93,8 +93,26 @@
     "SubInsts" : [
      {
       "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_add.v",
-      "InstLine" : 71,
+      "InstLine" : 43,
       "InstName" : "u_fifo_pong",
+      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
+      "ModuleLine" : 5982,
+      "ModuleName" : "fifo_pong",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
+        "InstLine" : 6007,
+        "InstName" : "fifo_inst",
+        "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~fifo.fifo_pong"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_add.v",
+      "InstLine" : 144,
+      "InstName" : "u_fifo_splicing",
       "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
       "ModuleLine" : 5982,
       "ModuleName" : "fifo_pong",

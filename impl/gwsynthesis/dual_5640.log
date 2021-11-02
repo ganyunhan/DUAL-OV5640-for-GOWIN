@@ -1,7 +1,7 @@
 GowinSynthesis start
 Running parser ...
 Analyzing Verilog file 'C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v'
-Undeclared symbol 'empty', assumed default net type 'wire'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":79)
+Undeclared symbol 'empty', assumed default net type 'wire'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":52)
 Analyzing Verilog file 'C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_rpll\cmos_rpll.v'
 Analyzing Verilog file 'C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\ddr3_memory_interface\ddr3_memory_interface.v'
 Analyzing Verilog file 'C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\ddr_rpll\ddr_rpll.v'
@@ -39,7 +39,8 @@ Analyzing included file 'C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\
 Back to file 'C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\gw_jtag.v'
 Analyzing Verilog file 'C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\impl\gwsynthesis\RTL_GAO\gw_gao_top.v'
-WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":81)
+WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":54)
+WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":155)
 WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":189)
 WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":217)
 WARN  (EX3073) : Port 'O_vin0_fifo_full' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":274)

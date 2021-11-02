@@ -80,45 +80,10 @@
             </Bus>
             <Signal>u_cmos_add/cmos0_href_reg</Signal>
             <Signal>u_cmos_add/pixel_href</Signal>
-            <Bus name="u_cmos_add/R[4:0]">
-                <Signal>u_cmos_add/R[4]</Signal>
-                <Signal>u_cmos_add/R[3]</Signal>
-                <Signal>u_cmos_add/R[2]</Signal>
-                <Signal>u_cmos_add/R[1]</Signal>
-                <Signal>u_cmos_add/R[0]</Signal>
-            </Bus>
-            <Bus name="u_cmos_add/G[5:0]">
-                <Signal>u_cmos_add/G[5]</Signal>
-                <Signal>u_cmos_add/G[4]</Signal>
-                <Signal>u_cmos_add/G[3]</Signal>
-                <Signal>u_cmos_add/G[2]</Signal>
-                <Signal>u_cmos_add/G[1]</Signal>
-                <Signal>u_cmos_add/G[0]</Signal>
-            </Bus>
-            <Bus name="u_cmos_add/B[4:0]">
-                <Signal>u_cmos_add/B[4]</Signal>
-                <Signal>u_cmos_add/B[3]</Signal>
-                <Signal>u_cmos_add/B[2]</Signal>
-                <Signal>u_cmos_add/B[1]</Signal>
-                <Signal>u_cmos_add/B[0]</Signal>
-            </Bus>
             <Signal>u_cmos_add/cmos0_vsync</Signal>
             <Signal>u_cmos_add/cmos1_vsync</Signal>
             <Signal>u_cmos_add/pixel_vsync</Signal>
-            <Signal>u_cmos_add/pixel_flip_flag</Signal>
-            <Bus name="u_cmos_add/pixel_href_cnt[9:0]">
-                <Signal>u_cmos_add/pixel_href_cnt[9]</Signal>
-                <Signal>u_cmos_add/pixel_href_cnt[8]</Signal>
-                <Signal>u_cmos_add/pixel_href_cnt[7]</Signal>
-                <Signal>u_cmos_add/pixel_href_cnt[6]</Signal>
-                <Signal>u_cmos_add/pixel_href_cnt[5]</Signal>
-                <Signal>u_cmos_add/pixel_href_cnt[4]</Signal>
-                <Signal>u_cmos_add/pixel_href_cnt[3]</Signal>
-                <Signal>u_cmos_add/pixel_href_cnt[2]</Signal>
-                <Signal>u_cmos_add/pixel_href_cnt[1]</Signal>
-                <Signal>u_cmos_add/pixel_href_cnt[0]</Signal>
-            </Bus>
         </SignalList>
     </AoCore_Lite>
-    <GAO_ID>0111010110110000</GAO_ID>
+    <GAO_ID>0111111001011010</GAO_ID>
 </GAO_CONFIG>

@@ -1,0 +1,38 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-55C" pn="GW2A-LV55PG484C8/I7">gw2a55c-005</Device>
+    <FileList>
+        <File path="src/Cortex_M3_DualCam.v" type="file.verilog" enable="1"/>
+        <File path="src/ahb_multiple.v" type="file.verilog" enable="1"/>
+        <File path="src/apb2_decoder.v" type="file.verilog" enable="1"/>
+        <File path="src/apb_multiple.v" type="file.verilog" enable="1"/>
+        <File path="src/cmos_add.v" type="file.verilog" enable="1"/>
+        <File path="src/cmos_rpll/cmos_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3_memory_interface/ddr3_memory_interface.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr_rpll/ddr_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/dual_ov5640_lcd.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_tx/dvi_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_ping/fifo_ping.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_pong/fifo_pong.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_empu_m3/gowin_empu_m3.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_empu_m3_template.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi_rpll/hdmi_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/ov5640/OV5640_capture_data.v" type="file.verilog" enable="1"/>
+        <File path="src/ov5640/i2c_dri.v" type="file.verilog" enable="1"/>
+        <File path="src/ov5640/i2c_ov5640_rgb565_cfg.v" type="file.verilog" enable="1"/>
+        <File path="src/ov5640/ov5640_dri.v" type="file.verilog" enable="1"/>
+        <File path="src/ov5640/picture_size.v" type="file.verilog" enable="1"/>
+        <File path="src/rpll_cpu/rpll_cpu.v" type="file.verilog" enable="1"/>
+        <File path="src/syn_code/syn_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/video_frame_buffer/video_frame_buffer.v" type="file.verilog" enable="1"/>
+        <File path="src/video_rpll/video_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/dual_5640.cst" type="file.cst" enable="1"/>
+        <File path="src/gowin_empu_m3.cst" type="file.cst" enable="0"/>
+        <File path="src/gowin_empu_m3.sdc" type="file.sdc" enable="0"/>
+    </FileList>
+</Project>

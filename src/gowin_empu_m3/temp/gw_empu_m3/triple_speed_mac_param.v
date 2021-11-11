@@ -1,0 +1,2 @@
+parameter RGMII_INPUT_DELAY_VALUE = 100;
+parameter MIIM_CLK_DIVIDER = 8'd20;

@@ -1,0 +1,40 @@
+Reading netlist file: "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\gowin_empu_m3.vg"
+Parsing netlist file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\gowin_empu_m3.vg" completed
+WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'i7/u_cmos_rpll/rpll_inst'
+WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'i7/pll_ddr3/rpll_inst'
+WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'i7/u_tmds_pll/rpll_inst'
+Processing netlist completed
+Reading constraint file: "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst"
+WARN  (CT1108) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":75 | Illegal port attribute value specified 'DRIVE = 8' on 'O_tmds_data_p[2]'
+WARN  (CT1108) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":77 | Illegal port attribute value specified 'DRIVE = 8' on 'O_tmds_data_p[1]'
+WARN  (CT1108) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":79 | Illegal port attribute value specified 'DRIVE = 8' on 'O_tmds_data_p[0]'
+WARN  (CT1108) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":81 | Illegal port attribute value specified 'DRIVE = 8' on 'O_tmds_clk_p'
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal '\Cortex_M3/u_Gowin_EMPU_M3_Top/JTAG_9_1 ' by the specified constraint. And then it may lead to the excessive delay or skew
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'cam1_pclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'cam0_vsync_d' by the specified constraint. And then it may lead to the excessive delay or skew
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'cam0_pclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\gowin_empu_m3.power.html" completed
+Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\gowin_empu_m3.pin.html" completed
+Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\gowin_empu_m3.rpt.html" completed
+Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\gowin_empu_m3.rpt.txt" completed
+Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\gowin_empu_m3.tr.html" completed
+Thu Nov 11 21:45:53 2021
+

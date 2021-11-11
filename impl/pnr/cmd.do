@@ -1,12 +1,9 @@
--d C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\impl\gwsynthesis\dual_5640.vg
--p GW2A-55-PBGA484-8
+-d C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\gowin_empu_m3.vg
+-p GW2A-55C-PBGA484-8
 -pn GW2A-LV55PG484C8/I7
--cst C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_5640.cst
--cfg C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\impl\pnr\device.cfg
--gao_crc 0110001000000100
+-cst C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst
+-cfg C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\device.cfg
 -bit
 -tr
 -ph
 -timing
--cst_error
--rtl_gao

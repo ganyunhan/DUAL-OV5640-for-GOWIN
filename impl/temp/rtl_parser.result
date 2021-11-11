@@ -1,297 +1,359 @@
 [
  {
-  "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
+  "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/Cortex_M3_DualCam.v",
   "InstLine" : 1,
-  "InstName" : "dual_ov5640_lcd",
-  "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
+  "InstName" : "Cortex_M3_DualCam",
+  "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/Cortex_M3_DualCam.v",
   "ModuleLine" : 1,
-  "ModuleName" : "dual_ov5640_lcd",
+  "ModuleName" : "Cortex_M3_DualCam",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 162,
-    "InstName" : "u_cmos_rpll",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_rpll/cmos_rpll.v",
-    "ModuleLine" : 9,
-    "ModuleName" : "cmos_rpll"
-   },
-   {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 172,
-    "InstName" : "u0_ov5640_dri",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/ov5640_dri.v",
-    "ModuleLine" : 22,
-    "ModuleName" : "ov5640_dri",
+    "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/Cortex_M3_DualCam.v",
+    "InstLine" : 68,
+    "InstName" : "Cortex_M3",
+    "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/gowin_empu_m3_template.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "Gowin_EMPU_M3_template",
     "SubInsts" : [
      {
-      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/ov5640_dri.v",
-      "InstLine" : 70,
-      "InstName" : "u_i2c_cfg",
-      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/i2c_ov5640_rgb565_cfg.v",
-      "ModuleLine" : 22,
-      "ModuleName" : "i2c_ov5640_rgb565_cfg"
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/gowin_empu_m3_template.v",
+      "InstLine" : 66,
+      "InstName" : "u_Gowin_rPLL",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/gowin_rpll/gowin_rpll.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "Gowin_rPLL"
      },
      {
-      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/ov5640_dri.v",
-      "InstLine" : 94,
-      "InstName" : "u_i2c_dr",
-      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/i2c_dri.v",
-      "ModuleLine" : 22,
-      "ModuleName" : "i2c_dri"
-     },
-     {
-      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/ov5640_dri.v",
-      "InstLine" : 113,
-      "InstName" : "u_cmos_capture_data",
-      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/OV5640_capture_data.v",
-      "ModuleLine" : 22,
-      "ModuleName" : "OV5640_capture_data"
-     }
-    ]
-   },
-   {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 200,
-    "InstName" : "u1_ov5640_dri",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/ov5640_dri.v",
-    "ModuleLine" : 22,
-    "ModuleName" : "ov5640_dri",
-    "SubInsts" : [
-     {
-      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/ov5640_dri.v",
-      "InstLine" : 70,
-      "InstName" : "u_i2c_cfg",
-      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/i2c_ov5640_rgb565_cfg.v",
-      "ModuleLine" : 22,
-      "ModuleName" : "i2c_ov5640_rgb565_cfg"
-     },
-     {
-      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/ov5640_dri.v",
-      "InstLine" : 94,
-      "InstName" : "u_i2c_dr",
-      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/i2c_dri.v",
-      "ModuleLine" : 22,
-      "ModuleName" : "i2c_dri"
-     },
-     {
-      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/ov5640_dri.v",
-      "InstLine" : 113,
-      "InstName" : "u_cmos_capture_data",
-      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/OV5640_capture_data.v",
-      "ModuleLine" : 22,
-      "ModuleName" : "OV5640_capture_data"
-     }
-    ]
-   },
-   {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 230,
-    "InstName" : "u_cmos_add",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_add.v",
-    "ModuleLine" : 6,
-    "ModuleName" : "cmos_add",
-    "SubInsts" : [
-     {
-      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_add.v",
-      "InstLine" : 47,
-      "InstName" : "u_fifo_pong",
-      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
-      "ModuleLine" : 5982,
-      "ModuleName" : "fifo_pong",
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/gowin_empu_m3_template.v",
+      "InstLine" : 75,
+      "InstName" : "u_Gowin_EMPU_M3_Top",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/gowin_empu_m3/gowin_empu_m3.v",
+      "ModuleLine" : 157887,
+      "ModuleName" : "Gowin_EMPU_M3_Top",
       "SubInsts" : [
        {
-        "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
-        "InstLine" : 6007,
-        "InstName" : "fifo_inst",
-        "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/gowin_empu_m3/gowin_empu_m3.v",
+        "InstLine" : 159333,
+        "InstName" : "u_M3_inst",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/gowin_empu_m3/gowin_empu_m3.v",
         "ModuleLine" : 1,
-        "ModuleName" : "~fifo.fifo_pong"
-       }
-      ]
-     },
-     {
-      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_add.v",
-      "InstLine" : 147,
-      "InstName" : "u_fifo_splicing",
-      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
-      "ModuleLine" : 5982,
-      "ModuleName" : "fifo_pong",
-      "SubInsts" : [
+        "ModuleName" : "m3_top"
+       },
        {
-        "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
-        "InstLine" : 6007,
-        "InstName" : "fifo_inst",
-        "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/gowin_empu_m3/gowin_empu_m3.v",
+        "InstLine" : 159439,
+        "InstName" : "u_GowinCM3AhbExtWrapper",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/gowin_empu_m3/gowin_empu_m3.v",
         "ModuleLine" : 1,
-        "ModuleName" : "~fifo.fifo_pong"
+        "ModuleName" : "GowinCM3AhbExtWrapper"
        }
       ]
      }
     ]
    },
    {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 253,
-    "InstName" : "Video_Frame_Buffer",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer/video_frame_buffer.v",
-    "ModuleLine" : 4132,
-    "ModuleName" : "Video_Frame_Buffer_Top",
+    "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/Cortex_M3_DualCam.v",
+    "InstLine" : 80,
+    "InstName" : "i7",
+    "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "dual_ov5640_lcd",
     "SubInsts" : [
      {
-      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer/video_frame_buffer.v",
-      "InstLine" : 4195,
-      "InstName" : "vfb_ddr3_wrapper_inst",
-      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer/video_frame_buffer.v",
-      "ModuleLine" : 1,
-      "ModuleName" : "~vfb_ddr3_wrapper.Video_Frame_Buffer_Top"
-     }
-    ]
-   },
-   {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 291,
-    "InstName" : "pll_ddr3",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ddr_rpll/ddr_rpll.v",
-    "ModuleLine" : 9,
-    "ModuleName" : "ddr_rpll"
-   },
-   {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 298,
-    "InstName" : "DDR3_MIG",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ddr3_memory_interface/ddr3_memory_interface.v",
-    "ModuleLine" : 11477,
-    "ModuleName" : "DDR3_Memory_Interface_Top",
-    "SubInsts" : [
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+      "InstLine" : 162,
+      "InstName" : "u_cmos_rpll",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/cmos_rpll/cmos_rpll.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "cmos_rpll"
+     },
      {
-      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ddr3_memory_interface/ddr3_memory_interface.v",
-      "InstLine" : 11562,
-      "InstName" : "gw3_top",
-      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ddr3_memory_interface/ddr3_memory_interface.v",
-      "ModuleLine" : 1,
-      "ModuleName" : "~GW_DDR3_PHY_MC.DDR3_Memory_Interface_Top"
-     }
-    ]
-   },
-   {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 346,
-    "InstName" : "syn_gen_inst",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/syn_code/syn_gen.v",
-    "ModuleLine" : 13,
-    "ModuleName" : "syn_gen"
-   },
-   {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 370,
-    "InstName" : "u_tmds_pll",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/hdmi_rpll/hdmi_rpll.v",
-    "ModuleLine" : 9,
-    "ModuleName" : "hdmi_rpll"
-   },
-   {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 378,
-    "InstName" : "u_Gowin_CLKDIV",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/gowin_clkdiv/gowin_clkdiv.v",
-    "ModuleLine" : 9,
-    "ModuleName" : "Gowin_CLKDIV"
-   },
-   {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 385,
-    "InstName" : "DVI_TX",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dvi_tx/dvi_tx.v",
-    "ModuleLine" : 1042,
-    "ModuleName" : "DVI_TX_Top",
-    "SubInsts" : [
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+      "InstLine" : 172,
+      "InstName" : "u0_ov5640_dri",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/ov5640_dri.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "ov5640_dri",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/ov5640_dri.v",
+        "InstLine" : 70,
+        "InstName" : "u_i2c_cfg",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/i2c_ov5640_rgb565_cfg.v",
+        "ModuleLine" : 22,
+        "ModuleName" : "i2c_ov5640_rgb565_cfg"
+       },
+       {
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/ov5640_dri.v",
+        "InstLine" : 94,
+        "InstName" : "u_i2c_dr",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/i2c_dri.v",
+        "ModuleLine" : 22,
+        "ModuleName" : "i2c_dri"
+       },
+       {
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/ov5640_dri.v",
+        "InstLine" : 113,
+        "InstName" : "u_cmos_capture_data",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/OV5640_capture_data.v",
+        "ModuleLine" : 22,
+        "ModuleName" : "OV5640_capture_data"
+       }
+      ]
+     },
      {
-      "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dvi_tx/dvi_tx.v",
-      "InstLine" : 1073,
-      "InstName" : "rgb2dvi_inst",
-      "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dvi_tx/dvi_tx.v",
-      "ModuleLine" : 1,
-      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+      "InstLine" : 200,
+      "InstName" : "u1_ov5640_dri",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/ov5640_dri.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "ov5640_dri",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/ov5640_dri.v",
+        "InstLine" : 70,
+        "InstName" : "u_i2c_cfg",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/i2c_ov5640_rgb565_cfg.v",
+        "ModuleLine" : 22,
+        "ModuleName" : "i2c_ov5640_rgb565_cfg"
+       },
+       {
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/ov5640_dri.v",
+        "InstLine" : 94,
+        "InstName" : "u_i2c_dr",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/i2c_dri.v",
+        "ModuleLine" : 22,
+        "ModuleName" : "i2c_dri"
+       },
+       {
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/ov5640_dri.v",
+        "InstLine" : 113,
+        "InstName" : "u_cmos_capture_data",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/OV5640_capture_data.v",
+        "ModuleLine" : 22,
+        "ModuleName" : "OV5640_capture_data"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+      "InstLine" : 230,
+      "InstName" : "u_cmos_add",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/cmos_add.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "cmos_add",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/cmos_add.v",
+        "InstLine" : 47,
+        "InstName" : "u_fifo_pong",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/fifo_pong/fifo_pong.v",
+        "ModuleLine" : 5982,
+        "ModuleName" : "fifo_pong",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/fifo_pong/fifo_pong.v",
+          "InstLine" : 6007,
+          "InstName" : "fifo_inst",
+          "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/fifo_pong/fifo_pong.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "~fifo.fifo_pong"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/cmos_add.v",
+        "InstLine" : 147,
+        "InstName" : "u_fifo_splicing",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/fifo_pong/fifo_pong.v",
+        "ModuleLine" : 5982,
+        "ModuleName" : "fifo_pong",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/fifo_pong/fifo_pong.v",
+          "InstLine" : 6007,
+          "InstName" : "fifo_inst",
+          "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/fifo_pong/fifo_pong.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "~fifo.fifo_pong"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+      "InstLine" : 253,
+      "InstName" : "Video_Frame_Buffer",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/video_frame_buffer/video_frame_buffer.v",
+      "ModuleLine" : 4132,
+      "ModuleName" : "Video_Frame_Buffer_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/video_frame_buffer/video_frame_buffer.v",
+        "InstLine" : 4195,
+        "InstName" : "vfb_ddr3_wrapper_inst",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/video_frame_buffer/video_frame_buffer.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~vfb_ddr3_wrapper.Video_Frame_Buffer_Top"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+      "InstLine" : 291,
+      "InstName" : "pll_ddr3",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ddr_rpll/ddr_rpll.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "ddr_rpll"
+     },
+     {
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+      "InstLine" : 298,
+      "InstName" : "DDR3_MIG",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ddr3_memory_interface/ddr3_memory_interface.v",
+      "ModuleLine" : 11477,
+      "ModuleName" : "DDR3_Memory_Interface_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ddr3_memory_interface/ddr3_memory_interface.v",
+        "InstLine" : 11562,
+        "InstName" : "gw3_top",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ddr3_memory_interface/ddr3_memory_interface.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~GW_DDR3_PHY_MC.DDR3_Memory_Interface_Top"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+      "InstLine" : 346,
+      "InstName" : "syn_gen_inst",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/syn_code/syn_gen.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "syn_gen"
+     },
+     {
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+      "InstLine" : 370,
+      "InstName" : "u_tmds_pll",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/hdmi_rpll/hdmi_rpll.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hdmi_rpll"
+     },
+     {
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+      "InstLine" : 378,
+      "InstName" : "u_Gowin_CLKDIV",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/gowin_clkdiv/gowin_clkdiv.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "Gowin_CLKDIV"
+     },
+     {
+      "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
+      "InstLine" : 385,
+      "InstName" : "DVI_TX",
+      "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 1042,
+      "ModuleName" : "DVI_TX_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dvi_tx/dvi_tx.v",
+        "InstLine" : 1073,
+        "InstName" : "rgb2dvi_inst",
+        "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dvi_tx/dvi_tx.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+       }
+      ]
      }
     ]
    }
   ]
  },
  {
-  "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_ping/fifo_ping.v",
+  "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ahb_multiple.v",
+  "InstLine" : 3,
+  "InstName" : "Gowin_AHB_Multiple",
+  "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ahb_multiple.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "Gowin_AHB_Multiple",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ahb_multiple.v",
+    "InstLine" : 134,
+    "InstName" : "u_multiple",
+    "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ahb_multiple.v",
+    "ModuleLine" : 149,
+    "ModuleName" : "Gowin_Multiple"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/apb2_decoder.v",
+  "InstLine" : 3,
+  "InstName" : "Gowin_APB2_Decoder",
+  "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/apb2_decoder.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "Gowin_APB2_Decoder"
+ },
+ {
+  "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/apb_multiple.v",
+  "InstLine" : 3,
+  "InstName" : "Gowin_APB2_Multiple",
+  "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/apb_multiple.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "Gowin_APB2_Multiple",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/apb_multiple.v",
+    "InstLine" : 100,
+    "InstName" : "multiplier_inst",
+    "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/apb_multiple.v",
+    "ModuleLine" : 115,
+    "ModuleName" : "Gowin_Multiplier"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/fifo_ping/fifo_ping.v",
   "InstLine" : 612,
   "InstName" : "fifo_ping",
-  "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_ping/fifo_ping.v",
+  "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/fifo_ping/fifo_ping.v",
   "ModuleLine" : 612,
   "ModuleName" : "fifo_ping",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_ping/fifo_ping.v",
+    "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/fifo_ping/fifo_ping.v",
     "InstLine" : 637,
     "InstName" : "fifo_inst",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_ping/fifo_ping.v",
+    "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/fifo_ping/fifo_ping.v",
     "ModuleLine" : 1,
     "ModuleName" : "~fifo.fifo_ping"
    }
   ]
  },
  {
-  "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/picture_size.v",
+  "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/picture_size.v",
   "InstLine" : 22,
   "InstName" : "picture_size",
-  "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/picture_size.v",
+  "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ov5640/picture_size.v",
   "ModuleLine" : 22,
   "ModuleName" : "picture_size"
  },
  {
-  "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/testpattern.v",
-  "InstLine" : 19,
-  "InstName" : "testpattern",
-  "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/testpattern.v",
-  "ModuleLine" : 19,
-  "ModuleName" : "testpattern"
+  "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/rpll_cpu/rpll_cpu.v",
+  "InstLine" : 9,
+  "InstName" : "rpll_cpu",
+  "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/rpll_cpu/rpll_cpu.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "rpll_cpu"
  },
  {
-  "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer_32/video_frame_buffer_32.v",
-  "InstLine" : 3958,
-  "InstName" : "Video_Frame_Buffer_Top_32",
-  "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer_32/video_frame_buffer_32.v",
-  "ModuleLine" : 3958,
-  "ModuleName" : "Video_Frame_Buffer_Top_32",
-  "SubInsts" : [
-   {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer_32/video_frame_buffer_32.v",
-    "InstLine" : 4021,
-    "InstName" : "vfb_ddr3_wrapper_inst",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer_32/video_frame_buffer_32.v",
-    "ModuleLine" : 1,
-    "ModuleName" : "~vfb_ddr3_wrapper.Video_Frame_Buffer_Top_32"
-   }
-  ]
- },
- {
-  "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer_dual/video_frame_buffer_dual.v",
-  "InstLine" : 4133,
-  "InstName" : "video_frame_buffer_dual",
-  "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer_dual/video_frame_buffer_dual.v",
-  "ModuleLine" : 4133,
-  "ModuleName" : "video_frame_buffer_dual",
-  "SubInsts" : [
-   {
-    "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer_dual/video_frame_buffer_dual.v",
-    "InstLine" : 4196,
-    "InstName" : "vfb_ddr3_wrapper_inst",
-    "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer_dual/video_frame_buffer_dual.v",
-    "ModuleLine" : 1,
-    "ModuleName" : "~vfb_ddr3_wrapper.video_frame_buffer_dual"
-   }
-  ]
- },
- {
-  "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_rpll/video_rpll.v",
+  "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/video_rpll/video_rpll.v",
   "InstLine" : 9,
   "InstName" : "video_rpll",
-  "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_rpll/video_rpll.v",
+  "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/video_rpll/video_rpll.v",
   "ModuleLine" : 9,
   "ModuleName" : "video_rpll"
  }

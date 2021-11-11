@@ -9,7 +9,7 @@
   "SubInsts" : [
    {
     "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 156,
+    "InstLine" : 162,
     "InstName" : "u_cmos_rpll",
     "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_rpll/cmos_rpll.v",
     "ModuleLine" : 9,
@@ -17,7 +17,7 @@
    },
    {
     "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 166,
+    "InstLine" : 172,
     "InstName" : "u0_ov5640_dri",
     "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/ov5640_dri.v",
     "ModuleLine" : 22,
@@ -51,7 +51,7 @@
    },
    {
     "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 194,
+    "InstLine" : 200,
     "InstName" : "u1_ov5640_dri",
     "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ov5640/ov5640_dri.v",
     "ModuleLine" : 22,
@@ -85,7 +85,7 @@
    },
    {
     "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 224,
+    "InstLine" : 230,
     "InstName" : "u_cmos_add",
     "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_add.v",
     "ModuleLine" : 6,
@@ -93,7 +93,7 @@
     "SubInsts" : [
      {
       "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_add.v",
-      "InstLine" : 43,
+      "InstLine" : 47,
       "InstName" : "u_fifo_pong",
       "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
       "ModuleLine" : 5982,
@@ -111,7 +111,7 @@
      },
      {
       "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/cmos_add.v",
-      "InstLine" : 143,
+      "InstLine" : 147,
       "InstName" : "u_fifo_splicing",
       "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/fifo_pong/fifo_pong.v",
       "ModuleLine" : 5982,
@@ -131,7 +131,7 @@
    },
    {
     "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 242,
+    "InstLine" : 253,
     "InstName" : "Video_Frame_Buffer",
     "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/video_frame_buffer/video_frame_buffer.v",
     "ModuleLine" : 4132,
@@ -149,7 +149,7 @@
    },
    {
     "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 280,
+    "InstLine" : 291,
     "InstName" : "pll_ddr3",
     "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ddr_rpll/ddr_rpll.v",
     "ModuleLine" : 9,
@@ -157,7 +157,7 @@
    },
    {
     "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 287,
+    "InstLine" : 298,
     "InstName" : "DDR3_MIG",
     "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/ddr3_memory_interface/ddr3_memory_interface.v",
     "ModuleLine" : 11477,
@@ -175,7 +175,7 @@
    },
    {
     "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 335,
+    "InstLine" : 346,
     "InstName" : "syn_gen_inst",
     "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/syn_code/syn_gen.v",
     "ModuleLine" : 13,
@@ -183,7 +183,7 @@
    },
    {
     "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 359,
+    "InstLine" : 370,
     "InstName" : "u_tmds_pll",
     "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/hdmi_rpll/hdmi_rpll.v",
     "ModuleLine" : 9,
@@ -191,7 +191,7 @@
    },
    {
     "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 367,
+    "InstLine" : 378,
     "InstName" : "u_Gowin_CLKDIV",
     "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/gowin_clkdiv/gowin_clkdiv.v",
     "ModuleLine" : 9,
@@ -199,7 +199,7 @@
    },
    {
     "InstFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dual_ov5640_lcd.v",
-    "InstLine" : 374,
+    "InstLine" : 385,
     "InstName" : "DVI_TX",
     "ModuleFile" : "C:/Users/Baymax/Desktop/GoWin/dual_ov5640_for_GOWIN/1028/DUAL-OV5640-for-GOWIN/src/dvi_tx/dvi_tx.v",
     "ModuleLine" : 1042,

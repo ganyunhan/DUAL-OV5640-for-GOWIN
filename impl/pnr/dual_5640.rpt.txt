@@ -11,26 +11,26 @@
   <GOWIN Version>: V1.9.8
   <Part Number>: GW2A-LV55PG484C8/I7
   <Device>: GW2A-55
-  <Created Time>:Tue Nov 02 21:29:36 2021
+  <Created Time>:Thu Nov 11 16:07:35 2021
 
 
 2. PnR Details
 
   Running placement:
     Placement Phase 0: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
-    Placement Phase 1: CPU time = 0h 0m 0.642s, Elapsed time = 0h 0m 0.641s
+    Placement Phase 1: CPU time = 0h 0m 0.63s, Elapsed time = 0h 0m 0.63s
     Placement Phase 2: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
     Placement Phase 3: CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s
     Total Placement: CPU time = 0h 0m 8s, Elapsed time = 0h 0m 8s
  Running routing:
-    Routing Phase 0: CPU time = 0h 0m 0.003s, Elapsed time = 0h 0m 0.003s
+    Routing Phase 0: CPU time = 0h 0m 0.002s, Elapsed time = 0h 0m 0.003s
     Routing Phase 1: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
-    Routing Phase 2: CPU time = 0h 0m 29s, Elapsed time = 0h 0m 29s
-    Total Routing: CPU time = 0h 0m 30s, Elapsed time = 0h 0m 30s
+    Routing Phase 2: CPU time = 0h 0m 35s, Elapsed time = 0h 0m 35s
+    Total Routing: CPU time = 0h 0m 36s, Elapsed time = 0h 0m 36s
  Generate output files:
     CPU time = 0h 0m 7s, Elapsed time = 0h 0m 7s
 
- Total Time and Memory Usage: CPU time = 0h 0m 45s, Elapsed time = 0h 0m 45s, Peak memory usage = 867MB
+ Total Time and Memory Usage: CPU time = 0h 0m 51s, Elapsed time = 0h 0m 51s, Peak memory usage = 821MB
 
 
 3. Resource Usage Summary
@@ -38,18 +38,18 @@
   ----------------------------------------------------------
   Resources                   | Usage
   ----------------------------------------------------------
-  Logic                       | 8579/54720  15%
-    --LUT,ALU,ROM16           | 4769(4405 LUT, 364 ALU, 0 ROM16)
+  Logic                       | 8481/54720  15%
+    --LUT,ALU,ROM16           | 4671(4307 LUT, 364 ALU, 0 ROM16)
     --SSRAM(RAM16)            | 635
   Register                    | 2543/41997  6%
     --Logic Register as Latch | 1/41040  1%
     --Logic Register as FF    | 2522/41040  6%
     --I/O Register as Latch   | 0/957  0%
     --I/O Register as FF      | 20/957  2%
-  CLS                         | 6052/27360  22%
-  I/O Port                    | 90
-  I/O Buf                     | 83
-    --Input Buf               | 27
+  CLS                         | 6012/27360  21%
+  I/O Port                    | 93
+  I/O Buf                     | 86
+    --Input Buf               | 30
     --Output Buf              | 38
     --Inout Buf               | 18
   IOLOGIC                     | 40%
@@ -83,7 +83,7 @@
   bank 0   | 4/40(10%)   
   bank 1   | 0/40(0%)    
   bank 2   | 14/46(30%)  
-  bank 3   | 4/34(11%)   
+  bank 3   | 7/34(20%)   
   bank 4   | 19/40(47%)  
   bank 5   | 2/40(5%)    
   bank 6   | 17/34(50%)  
@@ -111,11 +111,11 @@
   Signal         | Global Clock   | Location
   -------------------------------------------
   sys_clk_d      | PRIMARY        |  TR TL BR BL
-  clk_100m       | PRIMARY        |  BR
+  clk_100m       | PRIMARY        |  TR BR
   dma_clk        | PRIMARY        |  TL BR BL
   pix_clk        | PRIMARY        |  TR TL
   dri_clk_2      | PRIMARY        |  TR BR
-  dri_clk_2      | PRIMARY        |  TR BR
+  dri_clk_2      | PRIMARY        |  TR
   control0[0]    | PRIMARY        |  TR TL BR BL
   cam0_pclk_d    | SECONDARY      |  -
   cam0_vsync_d   | SECONDARY      |  -
@@ -159,6 +159,9 @@ cam1_data[4]      |           | E22/2     | Y          | in    | IOR28[B] | LVCM
 cam1_data[5]      |           | G21/2     | Y          | in    | IOR29[A] | LVCMOS33   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 3.3       
 cam1_data[6]      |           | J22/2     | Y          | in    | IOR32[B] | LVCMOS33   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 3.3       
 cam1_data[7]      |           | D22/2     | Y          | in    | IOR18[B] | LVCMOS33   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 3.3       
+cmos0_en          |           | W20/3     | Y          | in    | IOR77[A] | LVCMOS18   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 1.5       
+cmos1_en          |           | V20/3     | Y          | in    | IOR77[B] | LVCMOS18   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 1.5       
+splicing_en       |           | R19/3     | Y          | in    | IOR56[B] | LVCMOS18   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 1.5       
 tms_pad_i         |           | N22/2     | N          | in    | IOR42[B] | LVCMOS33   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 3.3       
 tck_pad_i         |           | N20/2     | N          | in    | IOR43[A] | LVCMOS33   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 3.3       
 tdi_pad_i         |           | M20/2     | N          | in    | IOR43[B] | LVCMOS33   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 3.3       
@@ -536,15 +539,15 @@ W22/3    | -                 | in    | IOR53[B] | LVCMOS18 | NA    | UP        |
 T20/3    | -                 | in    | IOR55[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
 U20/3    | -                 | in    | IOR55[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
 T19/3    | -                 | in    | IOR56[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
-R19/3    | -                 | in    | IOR56[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
+R19/3    | splicing_en       | in    | IOR56[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 1.5  
 Y22/3    | O_ddr_addr[6]     | out   | IOR73[A] | SSTL15   | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5  
 AA22/3   | -                 | in    | IOR73[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
 R18/3    | -                 | in    | IOR74[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
 T18/3    | -                 | in    | IOR74[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
 Y21/3    | O_ddr_addr[11]    | out   | IOR76[A] | SSTL15   | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5  
 AA21/3   | -                 | in    | IOR76[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
-W20/3    | -                 | in    | IOR77[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
-V20/3    | -                 | in    | IOR77[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
+W20/3    | cmos0_en          | in    | IOR77[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 1.5  
+V20/3    | cmos1_en          | in    | IOR77[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 1.5  
 AB22/3   | O_ddr_addr[8]     | out   | IOR79[A] | SSTL15   | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5  
 AB21/3   | -                 | in    | IOR79[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
 T17/3    | -                 | in    | IOR82[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  

@@ -19,6 +19,12 @@ module dual_ov5640_lcd(
     output        cam1_scl   ,  //cmos SCCB_SCL线
     inout         cam1_sda   ,  //cmos SCCB_SDA线    
 
+    //输出使能，连接ARM核
+    input           cmos0_en,
+    input           cmos1_en,
+    input           splicing_en,
+
+
     //HDMI
 	output	   		  O_tmds_clk_p      ,
 	output	   		  O_tmds_clk_n      ,
@@ -233,6 +239,11 @@ cmos_add u_cmos_add(
     .cmos1_href         (cmos1_frame_href),
     .cmos1_data         (cmos1_frame_data),
     .cmos1_vsync        (cam1_vsync),
+
+    .cmos0_en           (cmos0_en),
+    .cmos1_en           (cmos1_en),
+    .splicing_en        (splicing_en),
+
 
     .pixel_vsync        (ch0_vfb_vs_in),
     .pixel_href         (ch0_vfb_de_in),

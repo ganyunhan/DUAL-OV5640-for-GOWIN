@@ -15,6 +15,10 @@ module cmos_add(
     input[15:0]     cmos1_data,
     input           cmos1_vsync,
 
+    input           cmos0_en,
+    input           cmos1_en,
+    input           splicing_en,
+
     output          pixel_vsync,
     output          pixel_href,
     output reg [15:0]    pixel_data
@@ -159,13 +163,30 @@ always @(*) begin
 //pixel_data = (vsync_add_clk_cnt ^ 2'd1) ?  (cmos1_href ? cmos1_data : cmos0_data_rd) : 16'd0;
     case (vsync_add_clk_cnt)//上下分屏显示，用vsync分屏信号做标志
         2'd0 : begin //下360行
-            pixel_data = pixel_offset_flag ? cmos1_data : ~fifo_splicing_empty ? cmos0_data_splicing : 1'b0;
+            if (splicing_en) begin
+                pixel_data = pixel_offset_flag ? cmos1_data : ~fifo_splicing_empty ? cmos0_data_splicing : 1'b0;
+            end
+            else begin
+                pixel_data = 16'd0;
+            end
         end
         2'd1 : begin//上360行
-            pixel_data = cmos1_href ? cmos1_data : cmos0_data_rd;
+//            pixel_data = cmos1_href ? cmos1_data : cmos0_data_rd;
+            if (cmos1_href) begin
+                pixel_data = cmos1_en ? cmos1_data : 16'd0;
+            end
+            else begin
+                pixel_data = cmos0_en ? cmos0_data_rd : 16'd0;
+            end
         end
-        default : 
-            pixel_data = pixel_offset_flag ? cmos1_data : ~fifo_splicing_empty ? cmos0_data_splicing : 1'b0;
+        default : begin
+            if (splicing_en) begin
+                pixel_data = pixel_offset_flag ? cmos1_data : ~fifo_splicing_empty ? cmos0_data_splicing : 1'b0;
+            end
+            else begin
+                pixel_data = 16'd0;
+            end
+        end
     endcase
 end
 

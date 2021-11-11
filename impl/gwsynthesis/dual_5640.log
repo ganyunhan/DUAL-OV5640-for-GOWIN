@@ -1,7 +1,7 @@
 GowinSynthesis start
 Running parser ...
 Analyzing Verilog file 'C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v'
-Undeclared symbol 'empty', assumed default net type 'wire'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":52)
+Undeclared symbol 'empty', assumed default net type 'wire'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":56)
 Analyzing Verilog file 'C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_rpll\cmos_rpll.v'
 Analyzing Verilog file 'C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\ddr3_memory_interface\ddr3_memory_interface.v'
 Analyzing Verilog file 'C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\ddr_rpll\ddr_rpll.v'
@@ -39,11 +39,11 @@ Analyzing included file 'C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\
 Back to file 'C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\gw_jtag.v'
 Analyzing Verilog file 'C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\impl\gwsynthesis\RTL_GAO\gw_gao_top.v'
-WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":54)
-WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":154)
-WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":189)
-WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":217)
-WARN  (EX3073) : Port 'O_vin0_fifo_full' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":274)
+WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":58)
+WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":158)
+WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":195)
+WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":223)
+WARN  (EX3073) : Port 'O_vin0_fifo_full' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":285)
 Compiling module 'cmos_add'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\cmos_add.v":6)
 Compiling module 'fifo_pong'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\fifo_pong\fifo_pong.v":5982)
 Compiling module '**'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\fifo_pong\fifo_pong.v":0)
@@ -78,8 +78,8 @@ Compiling module 'ov5640_dri'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOW
 Compiling module 'i2c_ov5640_rgb565_cfg'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\ov5640\i2c_ov5640_rgb565_cfg.v":22)
 Compiling module 'i2c_dri(SLAVE_ADDR=7'b0111100,CLK_FREQ=27'b101111101011110000100000000,I2C_FREQ=18'b111101000010010000)'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\ov5640\i2c_dri.v":22)
 Compiling module 'OV5640_capture_data'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\ov5640\OV5640_capture_data.v":22)
-WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'cmos_h_pixel'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":179)
-WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'cmos_h_pixel'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":207)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'cmos_h_pixel'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":185)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'cmos_h_pixel'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":213)
 Compiling module 'Video_Frame_Buffer_Top'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\video_frame_buffer\video_frame_buffer.v":4132)
 Compiling module '**'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\video_frame_buffer\video_frame_buffer.v":0)
 Compiling module '**'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\video_frame_buffer\video_frame_buffer.v":0)
@@ -94,14 +94,14 @@ Compiling module '**'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\
 Compiling module 'syn_gen'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\syn_code\syn_gen.v":13)
 Compiling module 'hdmi_rpll'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\hdmi_rpll\hdmi_rpll.v":9)
 Compiling module 'Gowin_CLKDIV'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\gowin_clkdiv\gowin_clkdiv.v":9)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'calib'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":371)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'calib'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":382)
 Compiling module 'DVI_TX_Top'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dvi_tx\dvi_tx.v":1042)
 Compiling module '**'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dvi_tx\dvi_tx.v":0)
 Compiling module '**'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dvi_tx\dvi_tx.v":0)
 Compiling module '**'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dvi_tx\dvi_tx.v":0)
 Compiling module '**'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dvi_tx\dvi_tx.v":0)
-WARN  (EX1947) : Input port 'sr_req' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":330)
-WARN  (EX1987) : Input port 'ref_req' is not connected on this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":330)
+WARN  (EX1947) : Input port 'sr_req' remains unconnected for this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":341)
+WARN  (EX1987) : Input port 'ref_req' is not connected on this instance("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\dual_ov5640_lcd.v":341)
 Compiling module '**'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\fifo_ping\fifo_ping.v":0)
 Compiling module 'fifo_ping'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\fifo_ping\fifo_ping.v":612)
 Compiling module 'picture_size'("C:\Users\Baymax\Desktop\GoWin\dual_ov5640_for_GOWIN\1028\DUAL-OV5640-for-GOWIN\src\ov5640\picture_size.v":22)

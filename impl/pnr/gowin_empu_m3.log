@@ -1,14 +1,10 @@
 Reading netlist file: "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\gowin_empu_m3.vg"
 Parsing netlist file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\gowin_empu_m3.vg" completed
-WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'i7/u_cmos_rpll/rpll_inst'
-WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'i7/pll_ddr3/rpll_inst'
-WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'i7/u_tmds_pll/rpll_inst'
+WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'graphics_processing_unit/u_cmos_rpll/rpll_inst'
+WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'graphics_processing_unit/pll_ddr3/rpll_inst'
+WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'graphics_processing_unit/u_tmds_pll/rpll_inst'
 Processing netlist completed
 Reading constraint file: "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst"
-WARN  (CT1108) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":75 | Illegal port attribute value specified 'DRIVE = 8' on 'O_tmds_data_p[2]'
-WARN  (CT1108) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":77 | Illegal port attribute value specified 'DRIVE = 8' on 'O_tmds_data_p[1]'
-WARN  (CT1108) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":79 | Illegal port attribute value specified 'DRIVE = 8' on 'O_tmds_data_p[0]'
-WARN  (CT1108) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":81 | Illegal port attribute value specified 'DRIVE = 8' on 'O_tmds_clk_p'
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -36,5 +32,5 @@ Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\go
 Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\gowin_empu_m3.rpt.html" completed
 Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\gowin_empu_m3.rpt.txt" completed
 Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\gowin_empu_m3.tr.html" completed
-Thu Nov 11 21:45:53 2021
+Sat Nov 13 19:00:29 2021
 

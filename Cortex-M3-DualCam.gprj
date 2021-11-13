@@ -11,6 +11,7 @@
         <File path="src/apb_multiple.v" type="file.verilog" enable="1"/>
         <File path="src/cmos_add.v" type="file.verilog" enable="1"/>
         <File path="src/cmos_rpll/cmos_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/cpu_rpll/cpu_rpll.v" type="file.verilog" enable="1"/>
         <File path="src/ddr3_memory_interface/ddr3_memory_interface.v" type="file.verilog" enable="1"/>
         <File path="src/ddr_rpll/ddr_rpll.v" type="file.verilog" enable="1"/>
         <File path="src/dual_ov5640_lcd.v" type="file.verilog" enable="1"/>
@@ -33,6 +34,6 @@
         <File path="src/video_rpll/video_rpll.v" type="file.verilog" enable="1"/>
         <File path="src/dual_5640.cst" type="file.cst" enable="1"/>
         <File path="src/gowin_empu_m3.cst" type="file.cst" enable="0"/>
-        <File path="src/gowin_empu_m3.sdc" type="file.sdc" enable="0"/>
+        <File path="src/gowin_empu_m3.sdc" type="file.sdc" enable="1"/>
     </FileList>
 </Project>

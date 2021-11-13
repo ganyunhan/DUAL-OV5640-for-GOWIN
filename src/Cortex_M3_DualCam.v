@@ -7,7 +7,15 @@ module Cortex_M3_DualCam(
     inout         SWCLK      ,
     input         UART0RXD_i ,
     output        UART0TXD_o ,
-
+    inout         cmos0_en       ,
+    inout         cmos1_en       ,
+    inout         splicing_en       ,
+    inout         OUT1       ,
+    inout         OUT2       ,
+    inout         OUT3       ,
+    inout         LED1       ,
+    inout         LED2       ,
+    inout         LED3       ,
     //摄像头0 
     input         cam0_pclk  ,  //cmos 数据像素时钟
     input         cam0_vsync ,  //cmos 场同步信号
@@ -53,17 +61,24 @@ module Cortex_M3_DualCam(
 wire LOCKUP_o;
 wire HALTED_o;
 
-//输出使能，连接ARM核
-wire           cmos0_en;
-wire           cmos1_en;
-wire           splicing_en;
-
 //wire [15:0] GPIO_io = {cmos0_en,cmos1_en,splicing_en,13'b0};
 wire [15:0] GPIO_io;
 
-assign GPIO_io[0] = cmos0_en;
-assign GPIO_io[1] = cmos1_en;
-assign GPIO_io[2] = splicing_en;
+assign GPIO_io[0] = OUT1;
+assign GPIO_io[1] = OUT2;
+assign GPIO_io[2] = OUT3;
+
+assign LED1 = OUT1;
+assign LED2 = OUT2;
+assign LED3 = OUT3;
+
+//wire clk_cpu;
+
+//cpu_rpll u_cpu_rpll(
+//    .clkout(clk_cpu), //output clkout
+//    .reset(~sys_rst_n), //input reset
+//    .clkin(sys_clk) //input clkin
+//);
 
 Gowin_EMPU_M3_template Cortex_M3(
     .GPIO           (GPIO_io),
@@ -71,15 +86,14 @@ Gowin_EMPU_M3_template Cortex_M3(
     .SWCLK          (SWCLK),
     .UART0RXD       (UART0RXD_i),
     .UART0TXD       (UART0TXD_o),
-    .UART1RXD       (),
-    .UART1TXD       (),
     .HCLK           (sys_clk),
     .hwRstn         (sys_rst_n)
 );
 
-dual_ov5640_lcd(    
+dual_ov5640_lcd graphics_processing_unit(    
     .sys_clk        (sys_clk),  //系统时钟
     .sys_rst_n      (sys_rst_n),  //系统复位，低电平有效
+
     //摄像头0 
     .cam0_pclk      (cam0_pclk)  ,  //cmos 数据像素时钟
     .cam0_vsync     (cam0_vsync) ,  //cmos 场同步信号

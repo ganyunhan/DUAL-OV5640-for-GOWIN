@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Yunhan Gan, 123, LIC=TIVNB-25FL9-74TS0-BQA34-S84H0-AMFND
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  E:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\peripherals_app\PROJECT\peripherals_app.uvprojx
+Project File Date:  11/13/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'peripherals_app'
+assembling startup_GOWIN_M3.s...
+compiling system_GOWIN_M3.c...
+compiling GOWIN_M3_ddr3.c...
+compiling GOWIN_M3_misc.c...
+compiling GOWIN_M3_rtc.c...
+compiling GOWIN_M3_i2c.c...
+compiling GOWIN_M3_spi_flash.c...
+compiling GOWIN_M3_gpio.c...
+compiling GOWIN_M3_spi.c...
+compiling GOWIN_M3_ethernet.c...
+compiling core_cm3.c...
+compiling GOWIN_M3_timer.c...
+compiling GOWIN_M3_uart.c...
+compiling app.c...
+compiling cmd_line.c...
+cmd_line.h(12): warning:  #1295-D: Deprecated declaration start_cmd_line - give arg types
+  void start_cmd_line();
+cmd_line.c: 1 warning, 0 errors
+compiling GOWIN_M3_wdog.c...
+compiling app_if.c...
+compiling retarget.c...
+compiling GOWIN_M3_it.c...
+compiling malloc.c...
+compiling main.c...
+..\PROJECT\cmd_line.h(12): warning:  #1295-D: Deprecated declaration start_cmd_line - give arg types
+  void start_cmd_line();
+..\USER\main.c: 1 warning, 0 errors
+linking...
+Program Size: Code=3932 RO-data=1188 RW-data=16 ZI-data=8416  
+FromELF: creating hex file...
+After Build - User command #1: E:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin  -o  app.bin .\Objects\peripherals_app.axf
+".\Objects\peripherals_app.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+
+<h2>Collection of Component include folders:</h2>
+  E:\Keil_v5\Pack\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

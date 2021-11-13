@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\objects\core_cm3.o"
+".\objects\startup_gowin_m3.o"
+".\objects\system_gowin_m3.o"
+".\objects\gowin_m3_ddr3.o"
+".\objects\gowin_m3_ethernet.o"
+".\objects\gowin_m3_gpio.o"
+".\objects\gowin_m3_i2c.o"
+".\objects\gowin_m3_misc.o"
+".\objects\gowin_m3_rtc.o"
+".\objects\gowin_m3_spi.o"
+".\objects\gowin_m3_spi_flash.o"
+".\objects\gowin_m3_timer.o"
+".\objects\gowin_m3_uart.o"
+".\objects\gowin_m3_wdog.o"
+".\objects\app.o"
+".\objects\cmd_line.o"
+".\objects\main.o"
+".\objects\app_if.o"
+".\objects\gowin_m3_it.o"
+".\objects\malloc.o"
+".\objects\retarget.o"
+--strict --scatter ".\Objects\peripherals_app.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\peripherals_app.map" -o .\Objects\peripherals_app.axf

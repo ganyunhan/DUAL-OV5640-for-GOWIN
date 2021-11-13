@@ -103,6 +103,10 @@
   {
    "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/video_rpll/video_rpll.v",
    "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/cpu_rpll/cpu_rpll.v",
+   "Type" : "verilog"
   }
  ],
  "IncludePath" : [

@@ -7,30 +7,30 @@
   <Report Title>: Gowin PnR Report
   <Design File>: C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\gowin_empu_m3.vg
   <Physical Constraints File>: C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst
-  <Timing Constraints File>: ---
+  <Timing Constraints File>: C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3.sdc
   <GOWIN Version>: V1.9.8
   <Part Number>: GW2A-LV55PG484C8/I7
   <Device>: GW2A-55C
-  <Created Time>:Thu Nov 11 21:45:51 2021
+  <Created Time>:Sat Nov 13 19:00:26 2021
 
 
 2. PnR Details
 
   Running placement:
-    Placement Phase 0: CPU time = 0h 0m 13s, Elapsed time = 0h 0m 13s
+    Placement Phase 0: CPU time = 0h 0m 12s, Elapsed time = 0h 0m 12s
     Placement Phase 1: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
-    Placement Phase 2: CPU time = 0h 1m 8s, Elapsed time = 0h 1m 8s
-    Placement Phase 3: CPU time = 0h 0m 20s, Elapsed time = 0h 0m 20s
+    Placement Phase 2: CPU time = 0h 1m 3s, Elapsed time = 0h 1m 3s
+    Placement Phase 3: CPU time = 0h 0m 24s, Elapsed time = 0h 0m 24s
     Total Placement: CPU time = 0h 1m 42s, Elapsed time = 0h 1m 42s
  Running routing:
-    Routing Phase 0: CPU time = 0h 0m 0.012s, Elapsed time = 0h 0m 0.012s
-    Routing Phase 1: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
-    Routing Phase 2: CPU time = 0h 1m 6s, Elapsed time = 0h 1m 6s
-    Total Routing: CPU time = 0h 1m 9s, Elapsed time = 0h 1m 9s
+    Routing Phase 0: CPU time = 0h 0m 0.013s, Elapsed time = 0h 0m 0.013s
+    Routing Phase 1: CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s
+    Routing Phase 2: CPU time = 0h 3m 8s, Elapsed time = 0h 3m 8s
+    Total Routing: CPU time = 0h 3m 11s, Elapsed time = 0h 3m 11s
  Generate output files:
-    CPU time = 0h 0m 10s, Elapsed time = 0h 0m 10s
+    CPU time = 0h 0m 11s, Elapsed time = 0h 0m 11s
 
- Total Time and Memory Usage: CPU time = 0h 3m 1s, Elapsed time = 0h 3m 1s, Peak memory usage = 971MB
+ Total Time and Memory Usage: CPU time = 0h 5m 3s, Elapsed time = 0h 5m 3s, Peak memory usage = 1282MB
 
 
 3. Resource Usage Summary
@@ -38,20 +38,20 @@
   ----------------------------------------------------------
   Resources                   | Usage
   ----------------------------------------------------------
-  Logic                       | 30718/54720  56%
-    --LUT,ALU,ROM16           | 29926(28132 LUT, 1794 ALU, 0 ROM16)
-    --SSRAM(RAM16)            | 132
-  Register                    | 8491/41997  20%
+  Logic                       | 32737/54720  59%
+    --LUT,ALU,ROM16           | 28855(27116 LUT, 1739 ALU, 0 ROM16)
+    --SSRAM(RAM16)            | 647
+  Register                    | 7627/41997  18%
     --Logic Register as Latch | 1/41040  1%
-    --Logic Register as FF    | 8483/41040  20%
+    --Logic Register as FF    | 7603/41040  18%
     --I/O Register as Latch   | 0/957  0%
-    --I/O Register as FF      | 7/957  1%
-  CLS                         | 19335/27360  70%
-  I/O Port                    | 90
-  I/O Buf                     | 67
-    --Input Buf               | 10
+    --I/O Register as FF      | 23/957  2%
+  CLS                         | 19954/27360  72%
+  I/O Port                    | 99
+  I/O Buf                     | 89
+    --Input Buf               | 29
     --Output Buf              | 38
-    --Inout Buf               | 19
+    --Inout Buf               | 22
   IOLOGIC                     | 40%
     --IDES8_MEM               | 16
     --OSER8                   | 24
@@ -84,10 +84,10 @@
   -----------------------
   bank 0   | 4/40(10%)   
   bank 1   | 0/40(0%)    
-  bank 2   | 7/46(15%)   
+  bank 2   | 12/46(26%)  
   bank 3   | 5/34(14%)   
-  bank 4   | 8/40(20%)   
-  bank 5   | 3/40(7%)    
+  bank 4   | 19/40(47%)  
+  bank 5   | 9/40(22%)   
   bank 6   | 17/34(50%)  
   bank 7   | 23/46(50%)  
   =======================
@@ -114,18 +114,18 @@
   -------------------------------------------
   cam1_pclk_d    | PRIMARY        |  TR TL BR BL
   MCU_SYS_CLK    | PRIMARY        |  TR TL BR BL
-  n344_6         | PRIMARY        |  TL
-  clk_100m       | PRIMARY        |  TL
-  dma_clk        | PRIMARY        |  TL BR BL
-  pix_clk        | PRIMARY        |  TL
-  dri_clk_2      | PRIMARY        |  TL
-  dri_clk_2      | PRIMARY        |  TL
+  n344_6         | PRIMARY        |  BR
+  clk_100m       | PRIMARY        |  BL
+  dma_clk        | PRIMARY        |  TR TL BR BL
+  pix_clk        | PRIMARY        |  TR TL BL
+  dri_clk_2      | PRIMARY        |  BL
+  dri_clk_2      | PRIMARY        |  BL
   sys_clk_d      | SECONDARY      |  -
   cam0_pclk_d    | SECONDARY      |  -
   cam0_vsync_d   | SECONDARY      |  -
-  RTCSRCCLK      | SECONDARY      |  -
   JTAG_9_1       | SECONDARY      |  -
-  rtc_1hz_clk_6  | SECONDARY      |  -
+  sysRstGen_3    | SECONDARY      |  -
+  poreset_n_qq   | SECONDARY      |  -
   hdmi4_rst_n    | SECONDARY      |  -
   ddr_rst        | SECONDARY      |  -
   clk_ddr_200MHz | HCLK           | LEFT[0] RIGHT[0]
@@ -189,7 +189,7 @@ O_ddr_addr[13]    |           | AA1/6     | Y          | out   | IOL74[A] | SSTL
 O_ddr_ba[0]       |           | F4/7      | Y          | out   | IOL9[A]  | SSTL15     | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5       
 O_ddr_ba[1]       |           | T4/6      | Y          | out   | IOL77[A] | SSTL15     | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5       
 O_ddr_ba[2]       |           | F3/7      | Y          | out   | IOL11[A] | SSTL15     | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5       
-O_ddr_cs_n        |           | U19/3     | N          | out   | IOR83[A] | SSTL15     | 8     | NA        | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5       
+O_ddr_cs_n        |           | W20/3     | N          | out   | IOR77[A] | SSTL15     | 8     | NA        | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5       
 O_ddr_ras_n       |           | D1/7      | Y          | out   | IOL16[A] | SSTL15     | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5       
 O_ddr_cas_n       |           | D3/7      | Y          | out   | IOL7[A]  | SSTL15     | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5       
 O_ddr_we_n        |           | C2/7      | Y          | out   | IOL15[A] | SSTL15     | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5       
@@ -201,6 +201,15 @@ O_ddr_dqm[0]      |           | P3/6      | Y          | out   | IOL52[A] | SSTL
 O_ddr_dqm[1]      |           | K4/7      | Y          | out   | IOL37[A] | SSTL15     | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5       
 SWDIO             |           | AB1/5     | Y          | io    | IOB17[A] | LVCMOS33   | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | NA              | NA            | 3.3       
 SWCLK             |           | AB2/5     | Y          | io    | IOB17[B] | LVCMOS33   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3       
+cmos0_en          |           | AB7/5     | Y          | io    | IOB36[B] | LVCMOS33   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3       
+cmos1_en          |           | V7/5      | Y          | io    | IOB4[B]  | LVCMOS33   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3       
+splicing_en       |           | AA3/5     | Y          | io    | IOB9[B]  | LVCMOS33   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3       
+OUT1              |           | AB6/5     | Y          | io    | IOB27[B] | LVCMOS33   | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | NA              | NA            | 3.3       
+OUT2              |           | AB8/5     | Y          | io    | IOB37[B] | LVCMOS33   | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | NA              | NA            | 3.3       
+OUT3              |           | Y5/5      | Y          | io    | IOB6[B]  | LVCMOS33   | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | NA              | NA            | 3.3       
+LED1              |           | U17/3     | Y          | io    | IOR82[B] | LVCMOS15   | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | OFF             | NA            | 1.5       
+LED2              |           | U19/3     | Y          | io    | IOR83[A] | LVCMOS15   | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | OFF             | NA            | 1.5       
+LED3              |           | U18/3     | Y          | io    | IOR83[B] | LVCMOS15   | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | OFF             | NA            | 1.5       
 cam0_sda          |           | W17/4     | Y          | io    | IOB87[A] | LVCMOS33   | 8     | UP        | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 3.3       
 cam1_sda          |           | C22/2     | Y          | io    | IOR18[A] | LVCMOS33   | 8     | UP        | NA        | NA         | OFF        | FAST      | NA         | OFF             | NA            | 3.3       
 IO_ddr_dq[0]      |           | M5/6      | Y          | io    | IOL49[A] | SSTL15     | 8     | UP        | NA        | NA         | NA         | FAST      | INTERNAL   | OFF             | NA            | 1.5       
@@ -317,13 +326,13 @@ U7/5     | -                 | in    | IOB2[B]  | LVCMOS18 | NA    | UP        |
 W5/5     | -                 | in    | IOB3[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 W6/5     | -                 | in    | IOB3[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 V6/5     | -                 | in    | IOB4[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
-V7/5     | -                 | in    | IOB4[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+V7/5     | cmos1_en          | in    | IOB4[B]  | LVCMOS33 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 Y4/5     | -                 | in    | IOB6[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
-Y5/5     | -                 | in    | IOB6[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+Y5/5     | OUT3              | io    | IOB6[B]  | LVCMOS33 | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | NA              | NA            | 3.3  
 V8/5     | -                 | in    | IOB7[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 V9/5     | -                 | in    | IOB7[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 Y3/5     | -                 | in    | IOB9[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
-AA3/5    | -                 | in    | IOB9[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+AA3/5    | splicing_en       | in    | IOB9[B]  | LVCMOS33 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 AB1/5    | SWDIO             | io    | IOB17[A] | LVCMOS33 | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | NA              | NA            | 3.3  
 AB2/5    | SWCLK             | in    | IOB17[B] | LVCMOS33 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 Y6/5     | -                 | in    | IOB18[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
@@ -337,13 +346,13 @@ Y8/5     | -                 | in    | IOB24[B] | LVCMOS18 | NA    | UP        |
 V10/5    | -                 | in    | IOB25[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 V11/5    | -                 | in    | IOB25[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 AB5/5    | -                 | in    | IOB27[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
-AB6/5    | -                 | in    | IOB27[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+AB6/5    | OUT1              | io    | IOB27[B] | LVCMOS33 | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | NA              | NA            | 3.3  
 W9/5     | -                 | in    | IOB30[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 Y9/5     | -                 | in    | IOB30[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 AA7/5    | -                 | in    | IOB36[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
-AB7/5    | -                 | in    | IOB36[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+AB7/5    | cmos0_en          | in    | IOB36[B] | LVCMOS33 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 AA8/5    | -                 | in    | IOB37[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
-AB8/5    | -                 | in    | IOB37[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
+AB8/5    | OUT2              | io    | IOB37[B] | LVCMOS33 | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | NA              | NA            | 3.3  
 W10/5    | -                 | in    | IOB40[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 W11/5    | -                 | in    | IOB40[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
 AA11/5   | -                 | in    | IOB41[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 3.3  
@@ -546,14 +555,14 @@ R18/3    | -                 | in    | IOR74[A] | LVCMOS18 | NA    | UP        |
 T18/3    | -                 | in    | IOR74[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
 Y21/3    | O_ddr_addr[11]    | out   | IOR76[A] | SSTL15   | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5  
 AA21/3   | -                 | in    | IOR76[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
-W20/3    | -                 | in    | IOR77[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
+W20/3    | O_ddr_cs_n        | out   | IOR77[A] | SSTL15   | 8     | NA        | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5  
 V20/3    | -                 | in    | IOR77[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
 AB22/3   | O_ddr_addr[8]     | out   | IOR79[A] | SSTL15   | 8     | NONE      | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5  
 AB21/3   | -                 | in    | IOR79[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
 T17/3    | -                 | in    | IOR82[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
-U17/3    | -                 | in    | IOR82[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
-U19/3    | O_ddr_cs_n        | out   | IOR83[A] | SSTL15   | 8     | NA        | NA        | NA         | NA         | FAST      | NA         | OFF             | NA            | 1.5  
-U18/3    | -                 | in    | IOR83[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.5  
+U17/3    | LED1              | io    | IOR82[B] | LVCMOS15 | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | OFF             | NA            | 1.5  
+U19/3    | LED2              | io    | IOR83[A] | LVCMOS15 | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | OFF             | NA            | 1.5  
+U18/3    | LED3              | io    | IOR83[B] | LVCMOS15 | 8     | UP        | NA        | NONE       | OFF        | FAST      | NA         | OFF             | NA            | 1.5  
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ==============================================================================================================================================================================================
 

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="Gowin_EMPU_M3_Top" Register="6630" Alu="1470" Lut="26054" Dsp="1" Bsram="64" Ssram="20"/>
+<Module name="Gowin_EMPU_M3_Top" Register="5514" Alu="1383" Lut="23443" Dsp="1" Bsram="64" Ssram="20"/>

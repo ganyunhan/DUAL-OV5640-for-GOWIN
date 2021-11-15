@@ -7,6 +7,7 @@ Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\sr
 Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_add.v'
 Undeclared symbol 'empty', assumed default net type 'wire'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_add.v":56)
 Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_rpll\cmos_rpll.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cpu_rpll\cpu_rpll.v'
 Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\ddr3_memory_interface\ddr3_memory_interface.v'
 Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\ddr_rpll\ddr_rpll.v'
 Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v'
@@ -27,7 +28,6 @@ Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\sr
 Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\syn_code\syn_gen.v'
 Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\video_frame_buffer\video_frame_buffer.v'
 Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\video_rpll\video_rpll.v'
-Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cpu_rpll\cpu_rpll.v'
 Compiling module 'Cortex_M3_DualCam'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\Cortex_M3_DualCam.v":1)
 WARN  (EX3073) : Port 'JTAG_3' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3_template.v":53)
 Compiling module 'Gowin_EMPU_M3_template'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3_template.v":4)

@@ -9,7 +9,7 @@
   "SubInsts" : [
    {
     "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/Cortex_M3_DualCam.v",
-    "InstLine" : 83,
+    "InstLine" : 76,
     "InstName" : "Cortex_M3",
     "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/gowin_empu_m3_template.v",
     "ModuleLine" : 4,
@@ -53,7 +53,7 @@
    },
    {
     "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/Cortex_M3_DualCam.v",
-    "InstLine" : 93,
+    "InstLine" : 86,
     "InstName" : "graphics_processing_unit",
     "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/dual_ov5640_lcd.v",
     "ModuleLine" : 1,
@@ -316,6 +316,14 @@
   ]
  },
  {
+  "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/cpu_rpll/cpu_rpll.v",
+  "InstLine" : 9,
+  "InstName" : "cpu_rpll",
+  "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/cpu_rpll/cpu_rpll.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "cpu_rpll"
+ },
+ {
   "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/fifo_ping/fifo_ping.v",
   "InstLine" : 612,
   "InstName" : "fifo_ping",
@@ -356,13 +364,5 @@
   "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/video_rpll/video_rpll.v",
   "ModuleLine" : 9,
   "ModuleName" : "video_rpll"
- },
- {
-  "InstFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/cpu_rpll/cpu_rpll.v",
-  "InstLine" : 9,
-  "InstName" : "cpu_rpll",
-  "ModuleFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/cpu_rpll/cpu_rpll.v",
-  "ModuleLine" : 9,
-  "ModuleName" : "cpu_rpll"
  }
 ]

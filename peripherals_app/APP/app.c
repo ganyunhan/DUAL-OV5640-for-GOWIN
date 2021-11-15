@@ -12,7 +12,7 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include "app.h"
+ #include "app.h"
 #include "GOWIN_M3_it.h"
 
 /* Functions ------------------------------------------------------------------*/
@@ -1029,7 +1029,7 @@ void GPIOInit(void)
 
 	GPIO_Init(GPIO0,&GPIO_InitType);
 
-  GPIO_WriteBits(GPIO0,0xF);//light : low level
+  GPIO_WriteBits(GPIO0,0x00);//light : low level
 }
 
 void uart0_irq_app(void)

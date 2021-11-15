@@ -1,11 +1,12 @@
 #include "cmd_line.h"
 
-const char menu[512]="\
+const char menu[1024]="\
 HELP:\r\n\
 [command]: function\r\n\
+[0] or [clear]: clear the screen\r\n\
 [1] or [cam0]: display camera 0\r\n\
 [2] or [cam1]: display camera 1\r\n\
-[3] or [cam_all]: 3display camera 0 and camera 1\r\n\
+[3] or [cam_all]: display camera 0 and camera 1\r\n\
 [4] or [fusion]: display fusion graphics\r\n\
 [5] or [cam_and_fusion]: display cameras and fusion graphics\r\n\
 [6] or [help]: help\r\n\
@@ -35,7 +36,12 @@ void start_cmd_line()
 		if(scanf("%s",cmd_line))
 //		if(gets(cmd_line))
 		{
-			printf("cmd is :%s\r\n",cmd_line);
+//			printf("cmd is :%s\r\n",cmd_line);
+			if(!strcmp(cmd_line,"clear") || !strcmp(cmd_line,"0"))
+			{
+				printf("Switching to mode :  Only display camera 0\r\n");
+				GPIO_WriteBits(GPIO0,0x00);
+			}
 			if(!strcmp(cmd_line,"cam0") || !strcmp(cmd_line,"1"))
 			{
 				printf("Switching to mode :  Only display camera 0\r\n");

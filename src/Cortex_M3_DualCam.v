@@ -72,13 +72,6 @@ assign LED1 = OUT1;
 assign LED2 = OUT2;
 assign LED3 = OUT3;
 
-//wire clk_cpu;
-
-//cpu_rpll u_cpu_rpll(
-//    .clkout(clk_cpu), //output clkout
-//    .reset(~sys_rst_n), //input reset
-//    .clkin(sys_clk) //input clkin
-//);
 
 Gowin_EMPU_M3_template Cortex_M3(
     .GPIO           (GPIO_io),

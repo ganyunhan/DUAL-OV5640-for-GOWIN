@@ -25,6 +25,10 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/cpu_rpll/cpu_rpll.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/ddr3_memory_interface/ddr3_memory_interface.v",
    "Type" : "verilog"
   },
@@ -102,10 +106,6 @@
   },
   {
    "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/video_rpll/video_rpll.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/cpu_rpll/cpu_rpll.v",
    "Type" : "verilog"
   }
  ],

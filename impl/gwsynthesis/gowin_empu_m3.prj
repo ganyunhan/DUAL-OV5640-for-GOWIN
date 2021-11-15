@@ -10,6 +10,7 @@
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\apb_multiple.v" type="verilog"/>
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_add.v" type="verilog"/>
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_rpll\cmos_rpll.v" type="verilog"/>
+        <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cpu_rpll\cpu_rpll.v" type="verilog"/>
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\ddr3_memory_interface\ddr3_memory_interface.v" type="verilog"/>
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\ddr_rpll\ddr_rpll.v" type="verilog"/>
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v" type="verilog"/>
@@ -30,7 +31,6 @@
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\syn_code\syn_gen.v" type="verilog"/>
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\video_frame_buffer\video_frame_buffer.v" type="verilog"/>
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\video_rpll\video_rpll.v" type="verilog"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cpu_rpll\cpu_rpll.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

@@ -209,7 +209,7 @@ I (..\PERIPHERALS\Includes\GOWIN_M3_gpio.h)(0x5FFD6556)
 I (..\PERIPHERALS\Includes\GOWIN_M3_ddr3.h)(0x5FFD6556)
 I (..\PERIPHERALS\Includes\GOWIN_M3_spi_flash.h)(0x5FFD6556)
 I (..\PERIPHERALS\Includes\GOWIN_M3_misc.h)(0x5FFD6556)
-F (..\APP\app.c)(0x618FA17E)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\CORE -I ..\PERIPHERALS\Includes -I ..\SYSTEM -I ..\USER -I ..\PERIPHERALS\Sources -I ..\PROJECT-IE:\Keil_v5\Pack\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM3-o .\objects\app.o --omf_browse .\objects\app.crf --depend .\objects\app.d)
+F (..\APP\app.c)(0x618FBA1C)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\CORE -I ..\PERIPHERALS\Includes -I ..\SYSTEM -I ..\USER -I ..\PERIPHERALS\Sources -I ..\PROJECT-IE:\Keil_v5\Pack\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM3-o .\objects\app.o --omf_browse .\objects\app.crf --depend .\objects\app.d)
 I (..\APP\app.h)(0x618FA18C)
 I (..\APP\app_config.h)(0x618F84C7)
 I (..\SYSTEM\GOWIN_M3.h)(0x60D1AD0D)
@@ -230,8 +230,8 @@ I (..\PERIPHERALS\Includes\GOWIN_M3_spi_flash.h)(0x5FFD6556)
 I (..\PERIPHERALS\Includes\GOWIN_M3_misc.h)(0x5FFD6556)
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
 I (..\USER\GOWIN_M3_it.h)(0x5FFD6556)
-F (.\cmd_line.c)(0x618FA3D7)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\CORE -I ..\PERIPHERALS\Includes -I ..\SYSTEM -I ..\USER -I ..\PERIPHERALS\Sources -I ..\PROJECT-IE:\Keil_v5\Pack\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM3-o .\objects\cmd_line.o --omf_browse .\objects\cmd_line.crf --depend .\objects\cmd_line.d)
-I (cmd_line.h)(0x618FA19C)
+F (.\cmd_line.c)(0x6190CC1E)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\CORE -I ..\PERIPHERALS\Includes -I ..\SYSTEM -I ..\USER -I ..\PERIPHERALS\Sources -I ..\PROJECT-IE:\Keil_v5\Pack\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM3-o .\objects\cmd_line.o --omf_browse .\objects\cmd_line.crf --depend .\objects\cmd_line.d)
+I (cmd_line.h)(0x6190CC18)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
 I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
@@ -254,7 +254,7 @@ I (..\PERIPHERALS\Includes\GOWIN_M3_spi_flash.h)(0x5FFD6556)
 I (..\PERIPHERALS\Includes\GOWIN_M3_misc.h)(0x5FFD6556)
 I (..\APP\app.h)(0x618FA18C)
 I (..\APP\app_config.h)(0x618F84C7)
-F (.\cmd_line.h)(0x618FA19C)()
+F (.\cmd_line.h)(0x6190CC18)()
 F (..\USER\main.c)(0x618F91CA)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\CORE -I ..\PERIPHERALS\Includes -I ..\SYSTEM -I ..\USER -I ..\PERIPHERALS\Sources -I ..\PROJECT-IE:\Keil_v5\Pack\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\USER\app_if.h)(0x618F8323)
 I (..\SYSTEM\GOWIN_M3.h)(0x60D1AD0D)
@@ -275,7 +275,7 @@ I (..\PERIPHERALS\Includes\GOWIN_M3_spi_flash.h)(0x5FFD6556)
 I (..\PERIPHERALS\Includes\GOWIN_M3_misc.h)(0x5FFD6556)
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
-I (..\PROJECT\cmd_line.h)(0x618FA19C)
+I (..\PROJECT\cmd_line.h)(0x6190CC18)
 I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (..\APP\app.h)(0x618FA18C)
 I (..\APP\app_config.h)(0x618F84C7)

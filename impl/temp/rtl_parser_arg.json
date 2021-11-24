@@ -114,7 +114,7 @@
  ],
  "LoopLimit" : 2000,
  "ResultFile" : "C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/impl/temp/rtl_parser.result",
- "Top" : "Cortex_M3_DualCam",
+ "Top" : "dual_ov5640_lcd",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_2008"
 }

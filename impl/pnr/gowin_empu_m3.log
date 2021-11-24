@@ -1,10 +1,30 @@
 Reading netlist file: "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\gowin_empu_m3.vg"
 Parsing netlist file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\gowin_empu_m3.vg" completed
-WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'graphics_processing_unit/u_cmos_rpll/rpll_inst'
-WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'graphics_processing_unit/pll_ddr3/rpll_inst'
-WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'graphics_processing_unit/u_tmds_pll/rpll_inst'
+WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'u_cmos_rpll/rpll_inst'
+WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'pll_ddr3/rpll_inst'
+WARN  (PA1003) : Invalid parameterized value 'GW2A-55'(DEVICE) specified for instance 'u_tmds_pll/rpll_inst'
 Processing netlist completed
 Reading constraint file: "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst"
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":108 | Can't find object named 'LED3'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":109 | Can't find object named 'LED3'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":110 | Can't find object named 'LED2'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":111 | Can't find object named 'LED2'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":112 | Can't find object named 'LED1'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":113 | Can't find object named 'LED1'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":114 | Can't find object named 'UART0TXD_o'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":115 | Can't find object named 'UART0TXD_o'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":116 | Can't find object named 'SWCLK'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":117 | Can't find object named 'SWCLK'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":118 | Can't find object named 'UART0RXD_i'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":119 | Can't find object named 'UART0RXD_i'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":120 | Can't find object named 'SWDIO'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":121 | Can't find object named 'SWDIO'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":186 | Can't find object named 'OUT3'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":187 | Can't find object named 'OUT3'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":188 | Can't find object named 'OUT2'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":189 | Can't find object named 'OUT2'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":190 | Can't find object named 'OUT1'
+WARN  (CT1135) : "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst":191 | Can't find object named 'OUT1'
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -15,7 +35,6 @@ Running routing......
 [60%] Routing Phase 0 completed
 [70%] Routing Phase 1 completed
 [80%] Routing Phase 2 completed
-WARN  (PR1014) : Generic routing resource will be used to clock signal '\Cortex_M3/u_Gowin_EMPU_M3_Top/JTAG_9_1 ' by the specified constraint. And then it may lead to the excessive delay or skew
 WARN  (PR1014) : Generic routing resource will be used to clock signal 'cam1_pclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
 WARN  (PR1014) : Generic routing resource will be used to clock signal 'cam0_vsync_d' by the specified constraint. And then it may lead to the excessive delay or skew
 WARN  (PR1014) : Generic routing resource will be used to clock signal 'cam0_pclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
@@ -32,5 +51,5 @@ Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\go
 Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\gowin_empu_m3.rpt.html" completed
 Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\gowin_empu_m3.rpt.txt" completed
 Generate file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\gowin_empu_m3.tr.html" completed
-Sun Nov 14 14:39:06 2021
+Wed Nov 24 19:55:30 2021
 

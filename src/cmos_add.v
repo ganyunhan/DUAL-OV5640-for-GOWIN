@@ -137,9 +137,9 @@ always @(posedge cmos1_pclk or negedge sys_rst_n) begin
 end
 
 //像素偏差位置设置
-localparam PIXEL_OFFSET = 12'd100;
+localparam PIXEL_OFFSET = 12'd80;
 wire pixel_offset_flag = (cam1_pixel_cnt < PIXEL_OFFSET && cam1_pixel_cnt > 16'b0) ? 1'b1 : 1'b0;
-wire pixel_increase_flag = (cam1_pixel_cnt > PIXEL_OFFSET-1 && cam1_pixel_cnt <= (641 + PIXEL_OFFSET)) ? 1'b1 : 1'b0;
+wire pixel_increase_flag = (cam1_pixel_cnt > (PIXEL_OFFSET-1) && cam1_pixel_cnt <= (641 + PIXEL_OFFSET)) ? 1'b1 : 1'b0;
 
 wire [15:0]     cmos0_data_splicing;
 wire            fifo_splicing_full;
@@ -158,13 +158,51 @@ fifo_pong u_fifo_splicing(
 );
 
 
+reg [4:0] R;
+reg [5:0] G;
+reg [4:0] B;
+/*
+always @(*) begin
+    if (!pixel_flip_flag) begin //上半屏
+        pixel_data <= cmos1_href ? cmos1_data : cmos0_data_rd;
+//          pixel_data <= cmos1_href ? 16'd0 : 16'd0;
+    end
+    else if(pixel_flip_flag) begin
+//        R <= cmos1_data[14:11] + cmos0_data_rd[14:11];
+//        G <= cmos1_data[9:5]   + cmos0_data_rd[9:5];
+//        B <= cmos1_data[3:0]   + cmos0_data_rd[3:0];
+//        pixel_data <= {R,G,B};
+        pixel_data <= cmos1_href ? 16'd0 : 16'd0;
+    end
+end
+*/
+
+reg [15:0]     fusion_data;
+//RBG加权平均
+always @(*) begin
+    if(cam1_pixel_cnt < PIXEL_OFFSET) begin
+//        fusion_data[4:0] = (cmos1_data[4:0] >> 2) + (cmos0_data[4:0] >> 1);
+//        fusion_data[10:5] = (cmos1_data[10:5] >> 2) + (cmos0_data[10:5] >> 1);
+//        fusion_data[15:11] = (cmos1_data[15:11] >> 2) + (cmos0_data[15:11] >> 1);
+        fusion_data = cmos1_data;
+    end 
+    else if((cam1_pixel_cnt >= PIXEL_OFFSET) && (cam1_pixel_cnt <= PIXEL_OFFSET + 12'd10)) begin
+        fusion_data[4:0] = (cmos1_data[4:0] >> 1) + (cmos0_data_splicing[4:0] >> 1);
+        fusion_data[10:5] = (cmos1_data[10:5] >> 1) + (cmos0_data_splicing[10:5] >> 1);
+        fusion_data[15:11] = (cmos1_data[15:11] >> 1) + (cmos0_data_splicing[15:11] >> 1);
+    end
+    else begin
+        fusion_data = cmos0_data_splicing;
+    end
+end
+
 //移位拼接
 always @(*) begin
 //pixel_data = (vsync_add_clk_cnt ^ 2'd1) ?  (cmos1_href ? cmos1_data : cmos0_data_rd) : 16'd0;
     case (vsync_add_clk_cnt)//上下分屏显示，用vsync分屏信号做标志
         2'd0 : begin //下360行
             if (splicing_en) begin
-                pixel_data = pixel_offset_flag ? cmos1_data : ~fifo_splicing_empty ? cmos0_data_splicing : 1'b0;
+                pixel_data = pixel_offset_flag ? cmos1_data : ~fifo_splicing_empty ? fusion_data : 1'b0;
             end
             else begin
                 pixel_data = 16'd0;
@@ -181,7 +219,7 @@ always @(*) begin
         end
         default : begin
             if (splicing_en) begin
-                pixel_data = pixel_offset_flag ? cmos1_data : ~fifo_splicing_empty ? cmos0_data_splicing : 1'b0;
+                pixel_data = pixel_offset_flag ? cmos1_data : ~fifo_splicing_empty ? fusion_data : 1'b0;
             end
             else begin
                 pixel_data = 16'd0;

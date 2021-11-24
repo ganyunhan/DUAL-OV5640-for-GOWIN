@@ -3,8 +3,9 @@
 -pn GW2A-LV55PG484C8/I7
 -cst C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_5640.cst
 -cfg C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\pnr\device.cfg
--sdc C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3.sdc
+-gao_crc 0110100110001011
 -bit
 -tr
 -ph
 -timing
+-rtl_gao

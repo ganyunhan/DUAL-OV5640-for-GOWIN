@@ -28,8 +28,30 @@ Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\sr
 Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\syn_code\syn_gen.v'
 Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\video_frame_buffer\video_frame_buffer.v'
 Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\video_rpll\video_rpll.v'
-Compiling module 'Cortex_M3_DualCam'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\Cortex_M3_DualCam.v":1)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v'
+Analyzing included file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":133)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":133)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'
+Analyzing included file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_define.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing included file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing included file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_parameter.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'
+Analyzing included file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\RTL_GAO\ao_control\gw_con_top_define.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Analyzing included file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_parameter.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Back to file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\gw_jtag.v'
+Analyzing Verilog file 'C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\RTL_GAO\gw_gao_top.v'
+WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_add.v":58)
+WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_add.v":158)
+WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v":195)
+WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v":223)
+WARN  (EX3073) : Port 'O_vin0_fifo_full' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v":285)
 WARN  (EX3073) : Port 'JTAG_3' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3_template.v":53)
+Compiling module 'Cortex_M3_DualCam'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\Cortex_M3_DualCam.v":1)
 Compiling module 'Gowin_EMPU_M3_template'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3_template.v":4)
 Compiling module 'Gowin_rPLL'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_rpll\gowin_rpll.v":9)
 Compiling module 'Gowin_EMPU_M3_Top'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3\gowin_empu_m3.v":143942)
@@ -270,9 +292,6 @@ Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src
 Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3\gowin_empu_m3.v":0)
 Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3\gowin_empu_m3.v":0)
 Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3\gowin_empu_m3.v":0)
-WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v":195)
-WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v":223)
-WARN  (EX3073) : Port 'O_vin0_fifo_full' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v":285)
 Compiling module 'dual_ov5640_lcd'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v":1)
 Compiling module 'cmos_rpll'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_rpll\cmos_rpll.v":9)
 Compiling module 'ov5640_dri'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\ov5640\ov5640_dri.v":22)
@@ -281,8 +300,6 @@ Compiling module 'i2c_dri(SLAVE_ADDR=7'b0111100,CLK_FREQ=27'b1011111010111100001
 Compiling module 'OV5640_capture_data'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\ov5640\OV5640_capture_data.v":22)
 WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'cmos_h_pixel'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v":185)
 WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'cmos_h_pixel'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v":213)
-WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_add.v":58)
-WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_add.v":158)
 Compiling module 'cmos_add'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_add.v":6)
 Compiling module 'fifo_pong'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\fifo_pong\fifo_pong.v":5982)
 Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\fifo_pong\fifo_pong.v":0)
@@ -333,7 +350,29 @@ Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src
 Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dvi_tx\dvi_tx.v":0)
 WARN  (EX1947) : Input port 'sr_req' remains unconnected for this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v":341)
 WARN  (EX1987) : Input port 'ref_req' is not connected on this instance("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\dual_ov5640_lcd.v":341)
-NOTE  (EX0101) : Current top module is "Cortex_M3_DualCam"
+Compiling module 'Gowin_AHB_Multiple'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\ahb_multiple.v":3)
+Compiling module 'Gowin_Multiple'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\ahb_multiple.v":149)
+Compiling module 'Gowin_APB2_Decoder'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\apb2_decoder.v":3)
+Compiling module 'Gowin_APB2_Multiple'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\apb_multiple.v":3)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\apb_multiple.v":39)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\apb_multiple.v":40)
+Compiling module 'Gowin_Multiplier'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\apb_multiple.v":115)
+Compiling module 'cpu_rpll'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cpu_rpll\cpu_rpll.v":9)
+Compiling module '**'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\fifo_ping\fifo_ping.v":0)
+Compiling module 'fifo_ping'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\fifo_ping\fifo_ping.v":612)
+Compiling module 'picture_size'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\ov5640\picture_size.v":22)
+Compiling module 'rpll_cpu'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\rpll_cpu\rpll_cpu.v":9)
+Compiling module 'video_rpll'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\video_rpll\video_rpll.v":9)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Extracting RAM for identifier '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Extracting RAM for identifier '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Compiling module '**'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":0)
+Compiling module 'GW_JTAG'("D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\gw_jtag.v":1)
+Compiling module 'gw_gao'("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\RTL_GAO\gw_gao_top.v":1)
+Trying to combine GAO to RTL design
+NOTE  (EX0101) : Current top module is "dual_ov5640_lcd"
 WARN  (EX0206) : Instance "rpll_inst" 's parameter "DEVICE" value invalid("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\cmos_rpll\cmos_rpll.v":39)
 WARN  (EX0206) : Instance "rpll_inst" 's parameter "DEVICE" value invalid("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\ddr_rpll\ddr_rpll.v":39)
 WARN  (EX0206) : Instance "rpll_inst" 's parameter "DEVICE" value invalid("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\hdmi_rpll\hdmi_rpll.v":38)
@@ -354,11 +393,6 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-WARN  (NL0002) : The module "nds_inout_pad" instantiated to "spi1_holdn_pad" is swept in optimizing("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3\gowin_empu_m3.v":0)
-WARN  (NL0002) : The module "nds_inout_pad_0" instantiated to "spi1_miso_pad" is swept in optimizing("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3\gowin_empu_m3.v":0)
-WARN  (NL0002) : The module "nds_inout_pad_1" instantiated to "spi1_mosi_pad" is swept in optimizing("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3\gowin_empu_m3.v":0)
-WARN  (NL0002) : The module "gck_0" instantiated to "master_gclk_0" is swept in optimizing("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3\gowin_empu_m3.v":0)
-WARN  (NL0002) : The module "gck" instantiated to "master_gclk_1" is swept in optimizing("C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\gowin_empu_m3\gowin_empu_m3.v":0)
 [95%] Generate netlist file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\gowin_empu_m3.vg" completed
 [100%] Generate report file "C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\gowin_empu_m3_syn.rpt.html" completed
 GowinSynthesis finish

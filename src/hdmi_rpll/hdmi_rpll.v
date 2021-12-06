@@ -4,7 +4,7 @@
 //GOWIN Version: V1.9.8
 //Part Number: GW2A-LV55PG484C8/I7
 //Device: GW2A-55
-//Created Time: Tue Oct 19 16:39:22 2021
+//Created Time: Mon Nov 29 12:52:10 2021
 
 module hdmi_rpll (clkout, lock, clkin);
 
@@ -39,11 +39,11 @@ rPLL rpll_inst (
 
 defparam rpll_inst.FCLKIN = "50";
 defparam rpll_inst.DYN_IDIV_SEL = "false";
-defparam rpll_inst.IDIV_SEL = 0;
+defparam rpll_inst.IDIV_SEL = 6;
 defparam rpll_inst.DYN_FBDIV_SEL = "false";
-defparam rpll_inst.FBDIV_SEL = 4;
+defparam rpll_inst.FBDIV_SEL = 51;
 defparam rpll_inst.DYN_ODIV_SEL = "false";
-defparam rpll_inst.ODIV_SEL = 4;
+defparam rpll_inst.ODIV_SEL = 2;
 defparam rpll_inst.PSDA_SEL = "0000";
 defparam rpll_inst.DYN_DA_EN = "true";
 defparam rpll_inst.DUTYDA_SEL = "1000";

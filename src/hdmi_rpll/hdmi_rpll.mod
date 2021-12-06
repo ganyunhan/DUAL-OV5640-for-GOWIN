@@ -6,17 +6,17 @@
 
 -mod_name hdmi_rpll
 -file_name hdmi_rpll
--path C:/Users/hankg/OneDrive/Works/Gowin/dual_ov5640/src/hdmi_rpll/
+-path C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/src/hdmi_rpll/
 -type PLL
 -rPll true
 -file_type vlg
 -dev_type GW2A-55
 -dyn_idiv_sel false
--idiv_sel 1
+-idiv_sel 7
 -dyn_fbdiv_sel false
--fbdiv_sel 5
+-fbdiv_sel 52
 -dyn_odiv_sel false
--odiv_sel 4
+-odiv_sel 2
 -dyn_da_en true
 -rst_sig false
 -rst_sig_p false

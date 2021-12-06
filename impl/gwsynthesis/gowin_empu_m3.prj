@@ -31,22 +31,15 @@
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\syn_code\syn_gen.v" type="verilog"/>
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\video_frame_buffer\video_frame_buffer.v" type="verilog"/>
         <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\src\video_rpll\video_rpll.v" type="verilog"/>
-        <File path="D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v" type="gao"/>
-        <File path="D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v" type="gao"/>
-        <File path="D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v" type="gao"/>
-        <File path="D:\Gowin\Gowin_V1.9.8\IDE\data\ipcores\gw_jtag.v" type="gao"/>
-        <File path="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\RTL_GAO\gw_gao_top.v" type="gao"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>
         <Option type="dsp_balance" value="0"/>
-        <Option type="include_path" value="D:/Gowin/Gowin_V1.9.8/IDE/data/ipcores/GAO_LITE"/>
-        <Option type="include_path" value="C:/Users/hankg/OneDrive/Works/Gowin/Cortex-M3-DualCam/impl/gwsynthesis/RTL_GAO"/>
         <Option type="looplimit" value="2000"/>
         <Option type="output_file" value="C:\Users\hankg\OneDrive\Works\Gowin\Cortex-M3-DualCam\impl\gwsynthesis\gowin_empu_m3.vg"/>
         <Option type="print_all_synthesis_warning" value="0"/>
         <Option type="ram_rw_check" value="1"/>
-        <Option type="top_module" value="dual_ov5640_lcd"/>
+        <Option type="top_module" value="Cortex_M3_DualCam"/>
         <Option type="verilog_language" value="sysv-2017"/>
         <Option type="vhdl_language" value="vhdl-2008"/>
     </OptionList>

@@ -35,6 +35,6 @@
         <File path="src/dual_5640.cst" type="file.cst" enable="1"/>
         <File path="src/gowin_empu_m3.cst" type="file.cst" enable="0"/>
         <File path="src/gowin_empu_m3.sdc" type="file.sdc" enable="0"/>
-        <File path="src/Cortex-M3-DualCam_fusion.rao" type="file.gao" enable="1"/>
+        <File path="src/Cortex-M3-DualCam_fusion.rao" type="file.gao" enable="0"/>
     </FileList>
 </Project>
